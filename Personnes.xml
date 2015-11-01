@@ -9,6 +9,6 @@
 	<personne id="2">
 		<nom> BRICARD </nom>
 		<prenom> Laure </prenom>
-		<dateNaissance jour="16" mois="mar" annee="1994" />
+		<dateNaissance jour="15" mois="mar" annee="1994" />
 	</personne>
 </Personnes>
