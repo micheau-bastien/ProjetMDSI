@@ -2,13 +2,13 @@
 
 <Personnes>
 	<personne id="1">
-		<nom> MICHEAU </nom>
-		<prenom> Bastien </prenom>
+		<nom>MICHEAU</nom>
+		<prenom>Bastien</prenom>
 		<dateNaissance jour="15" mois="mar" annee="1994" />
 	</personne>
 	<personne id="2">
-		<nom> BRICARD </nom>
-		<prenom> Laure </prenom>
-		<dateNaissance jour="15" mois="mar" annee="1994" />
+		<nom>BRICARD</nom>
+		<prenom>Laure</prenom>
+		<dateNaissance jour="26" mois="avr" annee="1992" />
 	</personne>
 </Personnes>
