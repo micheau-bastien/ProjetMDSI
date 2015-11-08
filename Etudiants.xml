@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<Etudiants>
+	<etudiant idPersonne="1">
+		<année>4A</année>
+		<cursus>IR-I</cursus>
+		<groupe>B</groupe>
+	</etudiant>
+	<etudiant idPersonne="2">
+		<année>4A</année>
+		<cursus>IR-I</cursus>
+		<groupe>B</groupe>
+	</etudiant>
+</Etudiants>
