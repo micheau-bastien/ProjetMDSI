@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<Matieres>
+	<matiere idMatiere = "1">
+		<nom>MDSI</nom>
+		<code>IB58SDE</code> <!--j'ai pas trouvé le vrai code-->
+	</matiere>
+</Matieres>
