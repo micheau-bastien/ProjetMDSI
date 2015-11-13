@@ -1,5 +1,5 @@
-
 <?xml version="1.0"?>
+
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 
 	<xsd:element name="Matieres" type="typeMatieres"/>
@@ -10,10 +10,10 @@
 	</xsd:complexType>
 	
 	<xsd:complexType name="typeMatiere">
-		<sequence>
+		<xsd:sequence>
 			<xsd:element name="nom" type="xsd:string"/>
 			<xsd:element name="code" type="xsd:string"/>
-		</sequence>
+		</xsd:sequence>
 		<xsd:attribute name="idMatiere" type="xsd:integer" use="required" />
 	</xsd:complexType>
 </xsd:schema>

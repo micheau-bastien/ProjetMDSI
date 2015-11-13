@@ -2,12 +2,12 @@
 
 <Etudiants>
 	<etudiant idPersonne="1">
-		<année>4A</année>
+		<annee>4A</annee>
 		<cursus>IR-I</cursus>
 		<groupe>B</groupe>
 	</etudiant>
 	<etudiant idPersonne="2">
-		<année>4A</année>
+		<annee>4A</annee>
 		<cursus>IR-I</cursus>
 		<groupe>B</groupe>
 	</etudiant>
