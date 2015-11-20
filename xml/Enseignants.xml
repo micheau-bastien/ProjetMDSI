@@ -2,11 +2,29 @@
 
 <Enseignants>
 	<enseignant idPersonne="1">
+		<nom>COUOCU</nom>
+		<prenom>Rest</prenom>
+		<dateNaissance jour="15" mois="mar" annee="1994" />
 		<grade>prof</grade>
-		<idMatiere> 1 </idMatiere>
+		<matieres>
+			<idMatiere>1</idMatiere>
+		</matieres>
+		<groupesEnseigne>
+			<groupe>IR-B</groupe>
+			<groupe>GMM-A</groupe>
+		</groupesEnseigne>
 	</enseignant>
 	<enseignant idPersonne="2">
+		<nom>ZAZACU</nom>
+		<prenom>Poi</prenom>
+		<dateNaissance jour="15" mois="mar" annee="1994" />
 		<grade>prof</grade>
-		<idMatiere> 1 </idMatiere>
+		<matieres>
+			<idMatiere>2</idMatiere>
+		</matieres>
+		<groupesEnseigne>
+			<groupe>IR-A</groupe>
+			<groupe>GMM-B</groupe>
+		</groupesEnseigne>
 	</enseignant>
 </Enseignants>

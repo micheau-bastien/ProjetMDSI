@@ -12,6 +12,9 @@
 
 		<xsd:complexType name="typeEtudiant">
 			<xsd:sequence>
+            	<xsd:element name="nom" type="xsd:string" />
+            	<xsd:element name="prenom" type="xsd:string" />
+            	<xsd:element name="dateNaissance" type="typeDate" />   
 				<xsd:element name="annee" type="typeAnnee" />
 				<xsd:element name="cursus" type="typeCursus" />
 				<xsd:element name="groupe" type="typeGroupe" />
@@ -29,9 +32,11 @@
 			</xsd:restriction>
 		</xsd:simpleType>
 		
-				<xsd:simpleType name="typeCursus">
+		<xsd:simpleType name="typeCursus">
 			<xsd:restriction base="xsd:string">
-				<xsd:enumeration value="STPI" />
+				<xsd:enumeration value="STPI1" />
+				<xsd:enumeration value="STPI2" />
+				<xsd:enumeration value="STPI3" />
 				<xsd:enumeration value="IR" />
 				<xsd:enumeration value="IR-I" />
 				<xsd:enumeration value="IR-RT" />
@@ -44,5 +49,28 @@
 				<xsd:pattern value="([A-Z]|[a-z])[1-9]?[1-9]?" />
 			</xsd:restriction>
 		</xsd:simpleType>
+
+		     <xsd:complexType name="typeDate">
+          <xsd:attribute name="jour" type="xsd:integer" use="required" />
+          <xsd:attribute name="mois" type="typeMois" use="required" />
+          <xsd:attribute name="annee" type="xsd:integer" use="required" />
+     </xsd:complexType>
+
+     <xsd:simpleType name="typeMois">
+          <xsd:restriction base="xsd:string">
+               <xsd:enumeration value="jan" />
+               <xsd:enumeration value="fev" />
+               <xsd:enumeration value="mar" />
+               <xsd:enumeration value="avr" />
+               <xsd:enumeration value="mai" />
+               <xsd:enumeration value="jun" />
+               <xsd:enumeration value="jui" />
+               <xsd:enumeration value="aou" />
+               <xsd:enumeration value="sep" />
+               <xsd:enumeration value="oct" />
+               <xsd:enumeration value="nov" />
+               <xsd:enumeration value="dec" />
+          </xsd:restriction>
+     </xsd:simpleType>
 
 </xsd:schema>

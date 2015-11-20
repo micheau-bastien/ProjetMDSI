@@ -2,11 +2,17 @@
 
 <Etudiants>
 	<etudiant idPersonne="1">
+		<nom>MICHEAU</nom>
+		<prenom>Bastien</prenom>
+		<dateNaissance jour="15" mois="mar" annee="1994" />
 		<annee>4A</annee>
 		<cursus>IR-I</cursus>
 		<groupe>B</groupe>
 	</etudiant>
 	<etudiant idPersonne="2">
+		<nom>BRICARD</nom>
+		<prenom>Laure</prenom>
+		<dateNaissance jour="15" mois="mar" annee="1994" />
 		<annee>4A</annee>
 		<cursus>IR-I</cursus>
 		<groupe>B</groupe>
