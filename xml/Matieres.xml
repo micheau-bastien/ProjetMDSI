@@ -4,5 +4,16 @@
 	<matiere idMatiere = "1">
 		<nom>MDSI</nom>
 		<code>IB58SDE</code> <!--j'ai pas trouvé le vrai code-->
+		<cursusApp>
+			<cursus>IR-I</cursus>
+		</cursusApp>
+	</matiere>	
+	<matiere idMatiere = "2">
+		<nom>Expression</nom>
+		<code>IERSDE</code> <!--j'ai pas trouvé le vrai code-->
+		<cursusApp>
+			<cursus>IR-I</cursus>
+			<cursus>IR-RT</cursus>
+		</cursusApp>
 	</matiere>
 </Matieres>
