@@ -46,6 +46,8 @@
             <li class="active"><a href="indexbis.php?page=etudiantsGroupe">EtudiantsGroupe</a></li>
             <li class="active"><a href="indexbis.php?page=etudiantsAnnee">EtudiantsAnnee</a></li>
             <li class="active"><a href="indexbis.php?page=etudiantsCursus">EtudiantsCursus</a></li>
+            <li class="active"><a href="indexbis.php?page=matiereEnseignants">EnseignantsMDSI</a></li>
+            <li class="active"><a href="indexbis.php?page=matieresEnseignant">MatieresEnseignants</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>

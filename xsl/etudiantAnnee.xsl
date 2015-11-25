@@ -4,10 +4,12 @@
 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
   <xsl:template match="/etudiants">
+    <html>
     	<h1>Etudiants par Annee</h1>
     	<ul>
         	<xsl:apply-templates select="//annee"/>
     	</ul>
+    </html>
   </xsl:template>
 
   <xsl:template match="//annee">

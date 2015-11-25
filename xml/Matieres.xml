@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
 <Matieres>
-	<matiere idMatiere = "1">
+	<matiere>
 		<nom>MDSI</nom>
 		<code>IB58SDE</code> <!--j'ai pas trouvé le vrai code-->
 		<cursusApp>
 			<cursus>IR-I</cursus>
 		</cursusApp>
 	</matiere>	
-	<matiere idMatiere = "2">
+	<matiere>
 		<nom>Expression</nom>
 		<code>IERSDE</code> <!--j'ai pas trouvé le vrai code-->
 		<cursusApp>

@@ -6,21 +6,41 @@
 					<nom>TOTO</nom>
 					<prenom>Bastien</prenom>
 					<dateNaissance jour="15" mois="mar" annee="1994" />
+					<notes>
+						<annee annee="2015">
+						<note matiere="Expression" note="12" />
+						</annee>
+					</notes>
 				</etudiant>
 				<etudiant>
 					<nom>TATA</nom>
 					<prenom>Laure</prenom>
-					<dateNaissance jour="14" mois="mar" annee="1994" />
+					<dateNaissance jour="15" mois="mar" annee="1994" />
+					<notes>
+						<annee annee="2015">
+						<note matiere="Expression" note="12" />
+						</annee>
+					</notes>
 				</etudiant>
 				<etudiant>
 					<nom>TETE</nom>
 					<prenom>Bafeen</prenom>
 					<dateNaissance jour="15" mois="mar" annee="1994" />
+					<notes>
+						<annee annee="2015">
+						<note matiere="Expression" note="12" />
+						</annee>
+					</notes>
 				</etudiant>
 				<etudiant>
 					<nom>RERE</nom>
 					<prenom>QDen</prenom>
 					<dateNaissance jour="15" mois="mar" annee="1994" />
+					<notes>
+						<annee annee="2015">
+						<note matiere="Expression" note="12" />
+						</annee>
+					</notes>
 				</etudiant>
 			</groupe>
 			<groupe value="B">
@@ -28,21 +48,41 @@
 					<nom>ZAZA</nom>
 					<prenom>Henri</prenom>
 					<dateNaissance jour="15" mois="mar" annee="1994" />
+					<notes>
+						<annee annee="2015">
+						<note matiere="Expression" note="12" />
+						</annee>
+					</notes>
 				</etudiant>
 				<etudiant>
 					<nom>ZEZE</nom>
 					<prenom>Pierre</prenom>
-					<dateNaissance jour="14" mois="mar" annee="1994" />
+					<dateNaissance jour="15" mois="mar" annee="1994" />
+					<notes>
+						<annee annee="2015">
+						<note matiere="Expression" note="12" />
+						</annee>
+					</notes>
 				</etudiant>
 				<etudiant>
 					<nom>ZOZO</nom>
 					<prenom>Music</prenom>
 					<dateNaissance jour="15" mois="mar" annee="1994" />
+					<notes>
+						<annee annee="2015">
+						<note matiere="Expression" note="12" />
+						</annee>
+					</notes>
 				</etudiant>
 				<etudiant>
 					<nom>NONO</nom>
 					<prenom>Paolo</prenom>
 					<dateNaissance jour="15" mois="mar" annee="1994" />
+					<notes>
+						<annee annee="2015">
+						<note matiere="Expression" note="12" />
+						</annee>
+					</notes>
 				</etudiant>
 			</groupe>
 		</cursus>
@@ -52,21 +92,41 @@
 					<nom>GOGO</nom>
 					<prenom>Petit</prenom>
 					<dateNaissance jour="15" mois="mar" annee="1994" />
+					<notes>
+						<annee annee="2015">
+						<note matiere="Expression" note="12" />
+						</annee>
+					</notes>
 				</etudiant>
 				<etudiant>
 					<nom>GUIGUI</nom>
 					<prenom>Danse</prenom>
-					<dateNaissance jour="14" mois="mar" annee="1994" />
+					<dateNaissance jour="15" mois="mar" annee="1994" />
+					<notes>
+						<annee annee="2015">
+						<note matiere="Expression" note="12" />
+						</annee>
+					</notes>
 				</etudiant>
 				<etudiant>
 					<nom>GUGU</nom>
 					<prenom>son</prenom>
 					<dateNaissance jour="15" mois="mar" annee="1994" />
+					<notes>
+						<annee annee="2015">
+						<note matiere="Expression" note="12" />
+						</annee>
+					</notes>
 				</etudiant>
 				<etudiant>
 					<nom>TUTU</nom>
 					<prenom>Il</prenom>
 					<dateNaissance jour="15" mois="mar" annee="1994" />
+					<notes>
+						<annee annee="2015">
+						<note matiere="Expression" note="12" />
+						</annee>
+					</notes>
 				</etudiant>
 			</groupe>
 			<groupe value="B">
@@ -74,21 +134,41 @@
 					<nom>MAMA</nom>
 					<prenom>Yui</prenom>
 					<dateNaissance jour="15" mois="mar" annee="1994" />
+					<notes>
+						<annee annee="2015">
+						<note matiere="Expression" note="12" />
+						</annee>
+					</notes>
 				</etudiant>
 				<etudiant>
 					<nom>MEME</nom>
 					<prenom>Ooiu</prenom>
-					<dateNaissance jour="14" mois="mar" annee="1994" />
+					<dateNaissance jour="15" mois="mar" annee="1994" />
+					<notes>
+						<annee annee="2015">
+						<note matiere="Expression" note="12" />
+						</annee>
+					</notes>
 				</etudiant>
 				<etudiant>
 					<nom>MIMI</nom>
 					<prenom>Hju</prenom>
 					<dateNaissance jour="15" mois="mar" annee="1994" />
+					<notes>
+						<annee annee="2015">
+						<note matiere="Expression" note="12" />
+						</annee>
+					</notes>
 				</etudiant>
 				<etudiant>
 					<nom>MOMO</nom>
 					<prenom>Fvg</prenom>
 					<dateNaissance jour="15" mois="mar" annee="1994" />
+					<notes>
+						<annee annee="2015">
+						<note matiere="Expression" note="12" />
+						</annee>
+					</notes>
 				</etudiant>
 			</groupe>
 		</cursus>
@@ -100,21 +180,41 @@
 					<nom>MICHEAU</nom>
 					<prenom>Bastien</prenom>
 					<dateNaissance jour="15" mois="mar" annee="1994" />
+					<notes>
+						<annee annee="2015">
+						<note matiere="Expression" note="12" />
+						</annee>
+					</notes>
 				</etudiant>
 				<etudiant>
 					<nom>BRICARD</nom>
 					<prenom>Laure</prenom>
-					<dateNaissance jour="14" mois="mar" annee="1994" />
+					<dateNaissance jour="15" mois="mar" annee="1994" />
+					<notes>
+						<annee annee="2015">
+						<note matiere="Expression" note="12" />
+						</annee>
+					</notes>
 				</etudiant>
 				<etudiant>
 					<nom>MKJH</nom>
 					<prenom>Bafeen</prenom>
 					<dateNaissance jour="15" mois="mar" annee="1994" />
+					<notes>
+						<annee annee="2015">
+						<note matiere="Expression" note="12" />
+						</annee>
+					</notes>
 				</etudiant>
 				<etudiant>
 					<nom>AZERTAU</nom>
 					<prenom>QDen</prenom>
 					<dateNaissance jour="15" mois="mar" annee="1994" />
+					<notes>
+						<annee annee="2015">
+						<note matiere="Expression" note="12" />
+						</annee>
+					</notes>
 				</etudiant>
 			</groupe>
 			<groupe value="B">
@@ -122,21 +222,41 @@
 					<nom>CAZOTTES</nom>
 					<prenom>Henri</prenom>
 					<dateNaissance jour="15" mois="mar" annee="1994" />
+					<notes>
+						<annee annee="2015">
+						<note matiere="Expression" note="12" />
+						</annee>
+					</notes>
 				</etudiant>
 				<etudiant>
 					<nom>NOEL</nom>
 					<prenom>Pierre</prenom>
-					<dateNaissance jour="14" mois="mar" annee="1994" />
+					<dateNaissance jour="15" mois="mar" annee="1994" />
+					<notes>
+						<annee annee="2015">
+						<note matiere="Expression" note="12" />
+						</annee>
+					</notes>
 				</etudiant>
 				<etudiant>
 					<nom>RATATAT</nom>
 					<prenom>Music</prenom>
 					<dateNaissance jour="15" mois="mar" annee="1994" />
+					<notes>
+						<annee annee="2015">
+						<note matiere="Expression" note="12" />
+						</annee>
+					</notes>
 				</etudiant>
 				<etudiant>
 					<nom>CONTI</nom>
 					<prenom>Paolo</prenom>
 					<dateNaissance jour="15" mois="mar" annee="1994" />
+					<notes>
+						<annee annee="2015">
+						<note matiere="Expression" note="12" />
+						</annee>
+					</notes>
 				</etudiant>
 			</groupe>
 		</cursus>
@@ -146,21 +266,41 @@
 					<nom>JEAN</nom>
 					<prenom>Petit</prenom>
 					<dateNaissance jour="15" mois="mar" annee="1994" />
+					<notes>
+						<annee annee="2015">
+						<note matiere="Expression" note="12" />
+						</annee>
+					</notes>
 				</etudiant>
 				<etudiant>
 					<nom>QUI</nom>
 					<prenom>Danse</prenom>
-					<dateNaissance jour="14" mois="mar" annee="1994" />
+					<dateNaissance jour="15" mois="mar" annee="1994" />
+					<notes>
+						<annee annee="2015">
+						<note matiere="Expression" note="12" />
+						</annee>
+					</notes>
 				</etudiant>
 				<etudiant>
 					<nom>DE</nom>
 					<prenom>son</prenom>
 					<dateNaissance jour="15" mois="mar" annee="1994" />
+					<notes>
+						<annee annee="2015">
+						<note matiere="Expression" note="12" />
+						</annee>
+					</notes>
 				</etudiant>
 				<etudiant>
 					<nom>DOIGT</nom>
 					<prenom>Il</prenom>
 					<dateNaissance jour="15" mois="mar" annee="1994" />
+					<notes>
+						<annee annee="2015">
+						<note matiere="Expression" note="12" />
+						</annee>
+					</notes>
 				</etudiant>
 			</groupe>
 			<groupe value="B">
@@ -168,21 +308,57 @@
 					<nom>DANSE</nom>
 					<prenom>Yui</prenom>
 					<dateNaissance jour="15" mois="mar" annee="1994" />
+					<notes>
+						<annee annee="2015">
+							<note matiere="Expression" note="12" />
+						</annee>
+						<annee annee="2014">
+							<note matiere="Compta" note="2" />
+							<note matiere="Maths" note="4" />
+						</annee>
+					</notes>
 				</etudiant>
 				<etudiant>
 					<nom>POI</nom>
 					<prenom>Ooiu</prenom>
-					<dateNaissance jour="14" mois="mar" annee="1994" />
+					<dateNaissance jour="15" mois="mar" annee="1994" />
+					<notes>
+						<annee annee="2015">
+							<note matiere="Expression" note="18" />
+						</annee>
+						<annee annee="2014">
+							<note matiere="Compta" note="2" />
+							<note matiere="Maths" note="4" />
+						</annee>
+					</notes>
 				</etudiant>
 				<etudiant>
 					<nom>TYUJ</nom>
 					<prenom>Hju</prenom>
 					<dateNaissance jour="15" mois="mar" annee="1994" />
+					<notes>
+						<annee annee="2015">
+							<note matiere="Expression" note="8" />
+						</annee>
+						<annee annee="2014">
+							<note matiere="Compta" note="2" />
+							<note matiere="Maths" note="4" />
+						</annee>
+					</notes>
 				</etudiant>
 				<etudiant>
 					<nom>RF</nom>
 					<prenom>Fvg</prenom>
 					<dateNaissance jour="15" mois="mar" annee="1994" />
+					<notes>
+						<annee annee="2015">
+							<note matiere="Expression" note="12" />
+						</annee>
+						<annee annee="2014">
+							<note matiere="Compta" note="2" />
+							<note matiere="Maths" note="4" />
+						</annee>
+					</notes>
 				</etudiant>
 			</groupe>
 		</cursus>

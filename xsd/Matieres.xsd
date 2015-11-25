@@ -15,12 +15,11 @@
 			<xsd:element name="code" type="xsd:string"/>
 			<xsd:element name="cursusApp" type="typeCursus" minOccurs="1" maxOccurs="unbounded" />
 		</xsd:sequence>
-		<xsd:attribute name="idMatiere" type="xsd:integer" use="required" />
 	</xsd:complexType>
 
 	<xsd:complexType name="typeCursus">
 		<xsd:sequence>
-			<xsd:element name="cursus" type="xsd:string" minOccurs="1" maxOccurs="1" />
+			<xsd:element name="cursus" type="xsd:string" minOccurs="1" maxOccurs="unbounded" />
 		</xsd:sequence>
 	</xsd:complexType>
 
