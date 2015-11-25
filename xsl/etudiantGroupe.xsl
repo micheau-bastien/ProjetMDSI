@@ -4,17 +4,10 @@
 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
   <xsl:template match="/etudiants">
-    <html>
-      <head>
-        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-      </head>
-    <body>
-    	<h1>Etudiants par Groupe</h1>
-    	<ul>
-        	<xsl:apply-templates select="//groupe"/>
-    	</ul>
-    </body>
-    </html>
+  	<h1>Etudiants par Groupe</h1>
+  	<ul>
+      	<xsl:apply-templates select="//groupe"/>
+  	</ul>
   </xsl:template>
 
   <xsl:template match="//groupe">

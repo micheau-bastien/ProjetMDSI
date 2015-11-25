@@ -4,28 +4,18 @@
 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
   <xsl:template match="/etudiants">
-    <html>
-      <head>
-        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-      </head>
-    <body>
-    	<h1>Etudiants par Cursus</h1>
-    	<ul>
-        	<xsl:apply-templates select="//cursus"/>
-    	</ul>
-    </body>
-    </html>
+	<h1>Etudiants par Cursus</h1>
+	<table>
+		<xsl:apply-templates select="//cursus"/>
+	</table>
   </xsl:template>
 
   <xsl:template match="//cursus">
-    <li>
-      <xsl:value-of select="../attribute::*"/>-<xsl:value-of select="attribute::*"/>
-      <ul>
+    <tr>
+      <th><xsl:value-of select="../attribute::*"/>-<xsl:value-of select="attribute::*"/></th>
       	<xsl:for-each select="descendant::etudiant">
-      		<li><xsl:value-of select="."/></li>
+      		<td><xsl:value-of select="."/></td>
   		</xsl:for-each>
-      </ul>
-    </li>
+    </tr>
   </xsl:template>
-
 </xsl:stylesheet>
