@@ -1,20 +1,190 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-
-<Etudiants>
-	<etudiant idPersonne="1">
-		<nom>MICHEAU</nom>
-		<prenom>Bastien</prenom>
-		<dateNaissance jour="15" mois="mar" annee="1994" />
-		<annee>4A</annee>
-		<cursus>IR-I</cursus>
-		<groupe>B</groupe>
-	</etudiant>
-	<etudiant idPersonne="2">
-		<nom>BRICARD</nom>
-		<prenom>Laure</prenom>
-		<dateNaissance jour="15" mois="mar" annee="1994" />
-		<annee>4A</annee>
-		<cursus>IR-I</cursus>
-		<groupe>B</groupe>
-	</etudiant>
-</Etudiants>
+<etudiants>
+	<annee value="2A">
+		<cursus value="MIC">
+			<groupe value="A">
+				<etudiant>
+					<nom>TOTO</nom>
+					<prenom>Bastien</prenom>
+					<dateNaissance jour="15" mois="mar" annee="1994" />
+				</etudiant>
+				<etudiant>
+					<nom>TATA</nom>
+					<prenom>Laure</prenom>
+					<dateNaissance jour="14" mois="mar" annee="1994" />
+				</etudiant>
+				<etudiant>
+					<nom>TETE</nom>
+					<prenom>Bafeen</prenom>
+					<dateNaissance jour="15" mois="mar" annee="1994" />
+				</etudiant>
+				<etudiant>
+					<nom>RERE</nom>
+					<prenom>QDen</prenom>
+					<dateNaissance jour="15" mois="mar" annee="1994" />
+				</etudiant>
+			</groupe>
+			<groupe value="B">
+				<etudiant>
+					<nom>ZAZA</nom>
+					<prenom>Henri</prenom>
+					<dateNaissance jour="15" mois="mar" annee="1994" />
+				</etudiant>
+				<etudiant>
+					<nom>ZEZE</nom>
+					<prenom>Pierre</prenom>
+					<dateNaissance jour="14" mois="mar" annee="1994" />
+				</etudiant>
+				<etudiant>
+					<nom>ZOZO</nom>
+					<prenom>Music</prenom>
+					<dateNaissance jour="15" mois="mar" annee="1994" />
+				</etudiant>
+				<etudiant>
+					<nom>NONO</nom>
+					<prenom>Paolo</prenom>
+					<dateNaissance jour="15" mois="mar" annee="1994" />
+				</etudiant>
+			</groupe>
+		</cursus>
+		<cursus value="IMACS">
+			<groupe value="A">
+				<etudiant>
+					<nom>GOGO</nom>
+					<prenom>Petit</prenom>
+					<dateNaissance jour="15" mois="mar" annee="1994" />
+				</etudiant>
+				<etudiant>
+					<nom>GUIGUI</nom>
+					<prenom>Danse</prenom>
+					<dateNaissance jour="14" mois="mar" annee="1994" />
+				</etudiant>
+				<etudiant>
+					<nom>GUGU</nom>
+					<prenom>son</prenom>
+					<dateNaissance jour="15" mois="mar" annee="1994" />
+				</etudiant>
+				<etudiant>
+					<nom>TUTU</nom>
+					<prenom>Il</prenom>
+					<dateNaissance jour="15" mois="mar" annee="1994" />
+				</etudiant>
+			</groupe>
+			<groupe value="B">
+				<etudiant>
+					<nom>MAMA</nom>
+					<prenom>Yui</prenom>
+					<dateNaissance jour="15" mois="mar" annee="1994" />
+				</etudiant>
+				<etudiant>
+					<nom>MEME</nom>
+					<prenom>Ooiu</prenom>
+					<dateNaissance jour="14" mois="mar" annee="1994" />
+				</etudiant>
+				<etudiant>
+					<nom>MIMI</nom>
+					<prenom>Hju</prenom>
+					<dateNaissance jour="15" mois="mar" annee="1994" />
+				</etudiant>
+				<etudiant>
+					<nom>MOMO</nom>
+					<prenom>Fvg</prenom>
+					<dateNaissance jour="15" mois="mar" annee="1994" />
+				</etudiant>
+			</groupe>
+		</cursus>
+	</annee>
+	<annee value="4A">
+		<cursus value="IR-I">
+			<groupe value="A">
+				<etudiant>
+					<nom>MICHEAU</nom>
+					<prenom>Bastien</prenom>
+					<dateNaissance jour="15" mois="mar" annee="1994" />
+				</etudiant>
+				<etudiant>
+					<nom>BRICARD</nom>
+					<prenom>Laure</prenom>
+					<dateNaissance jour="14" mois="mar" annee="1994" />
+				</etudiant>
+				<etudiant>
+					<nom>MKJH</nom>
+					<prenom>Bafeen</prenom>
+					<dateNaissance jour="15" mois="mar" annee="1994" />
+				</etudiant>
+				<etudiant>
+					<nom>AZERTAU</nom>
+					<prenom>QDen</prenom>
+					<dateNaissance jour="15" mois="mar" annee="1994" />
+				</etudiant>
+			</groupe>
+			<groupe value="B">
+				<etudiant>
+					<nom>CAZOTTES</nom>
+					<prenom>Henri</prenom>
+					<dateNaissance jour="15" mois="mar" annee="1994" />
+				</etudiant>
+				<etudiant>
+					<nom>NOEL</nom>
+					<prenom>Pierre</prenom>
+					<dateNaissance jour="14" mois="mar" annee="1994" />
+				</etudiant>
+				<etudiant>
+					<nom>RATATAT</nom>
+					<prenom>Music</prenom>
+					<dateNaissance jour="15" mois="mar" annee="1994" />
+				</etudiant>
+				<etudiant>
+					<nom>CONTI</nom>
+					<prenom>Paolo</prenom>
+					<dateNaissance jour="15" mois="mar" annee="1994" />
+				</etudiant>
+			</groupe>
+		</cursus>
+		<cursus value="IR-I">
+			<groupe value="A">
+				<etudiant>
+					<nom>JEAN</nom>
+					<prenom>Petit</prenom>
+					<dateNaissance jour="15" mois="mar" annee="1994" />
+				</etudiant>
+				<etudiant>
+					<nom>QUI</nom>
+					<prenom>Danse</prenom>
+					<dateNaissance jour="14" mois="mar" annee="1994" />
+				</etudiant>
+				<etudiant>
+					<nom>DE</nom>
+					<prenom>son</prenom>
+					<dateNaissance jour="15" mois="mar" annee="1994" />
+				</etudiant>
+				<etudiant>
+					<nom>DOIGT</nom>
+					<prenom>Il</prenom>
+					<dateNaissance jour="15" mois="mar" annee="1994" />
+				</etudiant>
+			</groupe>
+			<groupe value="B">
+				<etudiant>
+					<nom>DANSE</nom>
+					<prenom>Yui</prenom>
+					<dateNaissance jour="15" mois="mar" annee="1994" />
+				</etudiant>
+				<etudiant>
+					<nom>POI</nom>
+					<prenom>Ooiu</prenom>
+					<dateNaissance jour="14" mois="mar" annee="1994" />
+				</etudiant>
+				<etudiant>
+					<nom>TYUJ</nom>
+					<prenom>Hju</prenom>
+					<dateNaissance jour="15" mois="mar" annee="1994" />
+				</etudiant>
+				<etudiant>
+					<nom>RF</nom>
+					<prenom>Fvg</prenom>
+					<dateNaissance jour="15" mois="mar" annee="1994" />
+				</etudiant>
+			</groupe>
+		</cursus>
+	</annee>
+</etudiants>
