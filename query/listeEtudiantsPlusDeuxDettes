@@ -1,0 +1,5 @@
+xquery version "3.0";
+
+for $etudiants in doc("Etudiants.xml")//etudiant
+where (count($etudiants/notes/annee[@annee < 2015]//note[@note < 10]) ge 2)
+return $etudiants

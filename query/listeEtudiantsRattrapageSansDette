@@ -1,0 +1,5 @@
+xquery version "3.0";
+
+for $etudiants in doc("Etudiants.xml")//etudiant
+where (some $v in $etudiants/notes/annee[@annee=2015]//note/@note satisfies xs:integer($v) lt 10) and (every $e in $etudiants/notes/annee[@annee<2015]//note/@note satisfies xs:integer($e) ge 10)
+return $etudiants
