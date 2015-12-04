@@ -1,4 +1,4 @@
-<Enseignants>
+<enseignants>
     <enseignant>
         <nom>COUOCU</nom>
         <prenom>Rest</prenom>
@@ -53,4 +53,4 @@
             <groupe annee="4A" cursus="IR-RT" groupe="B"/>
         </groupesEnseigne>
     </enseignant>
-</Enseignants>
+</enseignants>
