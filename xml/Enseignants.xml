@@ -1,31 +1,56 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-
 <Enseignants>
-	<enseignant>
-		<nom>COUOCU</nom>
-		<prenom>Rest</prenom>
-		<dateNaissance jour="15" mois="mar" annee="1994" />
-		<grade>prof</grade>
-		<matieres>
-			<matiere>Expression</matiere>
-			<matiere>MDSI</matiere>
-		</matieres>
-		<groupesEnseigne>
-			<groupe annee="4A" cursus="IR-I" groupe="B" />
-			<groupe annee="4A" cursus="GMM" groupe="A" />
-		</groupesEnseigne>
-	</enseignant>
-	<enseignant>
-		<nom>ZAZACU</nom>
-		<prenom>Poi</prenom>
-		<dateNaissance jour="15" mois="mar" annee="1994" />
-		<grade>prof</grade>
-		<matieres>
-			<matiere>MDSI</matiere>
-		</matieres>
-		<groupesEnseigne>
-			<groupe annee="4A" cursus="IR-I" groupe="B" />
-			<groupe annee="4A" cursus="IR-RT" groupe="B" />
-		</groupesEnseigne>
-	</enseignant>
+    <enseignant>
+        <nom>COUOCU</nom>
+        <prenom>Rest</prenom>
+        <dateNaissance jour="15" mois="mar" annee="1994"/>
+        <grade>prof</grade>
+        <matieres>
+            <matiere>Expression</matiere>
+            <matiere>MDSI</matiere>
+        </matieres>
+        <groupesEnseigne>
+            <groupe annee="4A" cursus="IR-I" groupe="B"/>
+            <groupe annee="4A" cursus="GMM" groupe="A"/>
+        </groupesEnseigne>
+    </enseignant>
+    <enseignant>
+        <nom>BABAOGLU</nom>
+        <prenom>AZALP</prenom>
+        <dateNaissance jour="15" mois="mar" annee="1994"/>
+        <grade>prof</grade>
+        <matieres>
+            <matiere>Expression</matiere>
+            <matiere>MDSI</matiere>
+        </matieres>
+        <groupesEnseigne>
+            <groupe annee="2A" cursus="IR-I" groupe="B"/>
+            <groupe annee="4A" cursus="GMM" groupe="A"/>
+        </groupesEnseigne>
+    </enseignant>
+    <enseignant>
+        <nom>DELORMES</nom>
+        <prenom>Gautier</prenom>
+        <dateNaissance jour="15" mois="mar" annee="1994"/>
+        <grade>prof</grade>
+        <matieres>
+            <matiere>Expression</matiere>
+            <matiere>MDSI</matiere>
+        </matieres>
+        <groupesEnseigne>
+            <groupe annee="2A" cursus="IR-I" groupe="B"/>
+        </groupesEnseigne>
+    </enseignant>
+    <enseignant>
+        <nom>ZAZACU</nom>
+        <prenom>Poi</prenom>
+        <dateNaissance jour="15" mois="mar" annee="1994"/>
+        <grade>prof</grade>
+        <matieres>
+            <matiere>MDSI</matiere>
+        </matieres>
+        <groupesEnseigne>
+            <groupe annee="4A" cursus="IR-I" groupe="B"/>
+            <groupe annee="4A" cursus="IR-RT" groupe="B"/>
+        </groupesEnseigne>
+    </enseignant>
 </Enseignants>
