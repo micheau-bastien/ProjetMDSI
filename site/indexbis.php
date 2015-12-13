@@ -43,11 +43,11 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="indexbis.php?page=etudiantsGroupe">EtudiantsGroupe</a></li>
-            <li class="active"><a href="indexbis.php?page=etudiantsAnnee">EtudiantsAnnee</a></li>
-            <li class="active"><a href="indexbis.php?page=etudiantsCursus">EtudiantsCursus</a></li>
-            <li class="active"><a href="indexbis.php?page=matiereEnseignants">EnseignantsMDSI</a></li>
-            <li class="active"><a href="indexbis.php?page=matieresEnseignant">MatieresEnseignants</a></li>
+            <li class="active"><a href="indexbis.php?page=html/etudiantsGroupe">EtudiantsGroupe</a></li>
+            <li class="active"><a href="indexbis.php?page=html/etudiantsAnnee">EtudiantsAnnee</a></li>
+            <li class="active"><a href="indexbis.php?page=html/etudiantsCursus">EtudiantsCursus</a></li>
+            <li class="active"><a href="indexbis.php?page=html/matiereEnseignants">EnseignantsMDSI</a></li>
+            <li class="active"><a href="indexbis.php?page=html/matieresEnseignant">MatieresEnseignants</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -62,12 +62,28 @@
 	    			<h2>BRICARD Laure MICHEAU Bastien</h2>
 	    		</div><!-- /col-lg-8 -->
 	    	</div><!-- /row -->
+        <div class="row">
+          Résultats des query :
+          <ul>
+            <li><a href="indexbis.php?page=resultQuery/enseignantsCursus">enseignantsCursus</a></li>
+            <li><a href="indexbis.php?page=resultQuery/enseignantsParAnnee">enseignantsParAnnee</a></li>
+            <li><a href="indexbis.php?page=resultQuery/enseignantsParGroupes">enseignantsParGroupes</a></li>
+            <li><a href="indexbis.php?page=resultQuery/listeEnseignantsParMatieres">listeEnseignantsParMatieres</a></li>
+            <li><a href="indexbis.php?page=resultQuery/listeEtudiantsDette">listeEtudiantsDette</a></li>
+            <li><a href="indexbis.php?page=resultQuery/listeEtudiantsDetteOuRattrapage">listeEtudiantsDetteOuRattrapage</a></li>
+            <li><a href="indexbis.php?page=resultQuery/listeEtudiantsDeuxDettesSansRattrapage">listeEtudiantsDeuxDettesSansRattrapage</a></li>
+            <li><a href="indexbis.php?page=resultQuery/listeEtudiantsPlusDeuxDettes">listeEtudiantsPlusDeuxDettes</a></li>
+            <li><a href="indexbis.php?page=resultQuery/listeEtudiantsRattrapageSansDette">listeEtudiantsRattrapageSansDette</a></li>
+            <li><a href="indexbis.php?page=resultQuery/listeEtudiantsUneDetteSansRattrapage">listeEtudiantsUneDetteSansRattrapage</a></li>
+            <li><a href="indexbis.php?page=resultQuery/matiereParCursus">matiereParCursus</a></li>
+          </ul>
+        </div>
 	    </div> <!-- /container -->
 	</div><!-- /hello -->
 
   <div id="etudGroupe"><br><br><br>
     <div class="container">
-      <?php $a="html/".$_GET[page].'.html'; include $a; ?><br><br><br>
+      <?php $a=$_GET[page].'.html'; include $a; ?><br><br><br>
     </div>
   </div>
 

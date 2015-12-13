@@ -1,6 +1,6 @@
 xquery version "3.0";
 <etudiants>{
-for $etudiants in doc("Etudiants.xml")//etudiant
+for $etudiants in doc("../xml/Etudiants.xml")//etudiant
 where some $v in $etudiants/notes/annee[@annee<2015]//note/@note satisfies xs:integer($v) lt 10
 return $etudiants}
 </etudiants>

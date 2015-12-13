@@ -1,10 +1,10 @@
 xquery version "3.0";
 <enseignantsAnnee>
-{for $annee in doc("Etudiants.xml")//cursus/../@value
-    return 
+{for $annee in doc("../xml/Etudiants.xml")//cursus/../@value
+    return
         <enseignantAnnee><annee>{$annee/string()}</annee>
         <enseignants>
-        {for $enseignant in doc("Enseignants.xml")//enseignant
+        {for $enseignant in doc("../xml/Enseignants.xml")//enseignant
         where some $anneeEnseignee in $enseignant//groupesEnseigne/groupe/@annee satisfies $anneeEnseignee = $annee
         return <enseignant>{$enseignant/nom}</enseignant>}
 

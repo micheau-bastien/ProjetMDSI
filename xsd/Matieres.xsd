@@ -2,7 +2,7 @@
 
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 
-	<xsd:element name="Matieres" type="typeMatieres"/>
+	<xsd:element name="matieres" type="typeMatieres"/>
 	<xsd:complexType name="typeMatieres">
 		<xsd:sequence>
 			<xsd:element name="matiere" type="typeMatiere" minOccurs="0" maxOccurs="unbounded" />

@@ -1,0 +1,15 @@
+<etudiants><etudiant>
+					<nom>RATTRAPAGE</nom>
+					<prenom>Sansdette</prenom>
+					<dateNaissance jour="15" mois="mar" annee="1994"/>
+					<notes>
+						<annee annee="2015">
+							<note matiere="Expression" note="1"/>
+						</annee>
+						<annee annee="2015">
+							<note matiere="Expression" note="13"/>
+							<note matiere="Expression" note="14"/>
+							<note matiere="Expression" note="15"/>
+						</annee>
+					</notes>
+				</etudiant></etudiants>

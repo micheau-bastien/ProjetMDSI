@@ -1,12 +1,12 @@
 xquery version "3.0";
 <cursuses>
-    {let $matieres := doc("Matieres.xml")
+    {let $matieres := doc("../xml/Matieres.xml")
     let $cursuses := distinct-values($matieres//cursus)
     for $cursus in $cursuses
-    return 
+    return
         <cursus>
             <nom>{$cursus}</nom>
-            <matiere>{for $matieresCursus in doc("Matieres.xml")//matiere
+            <matiere>{for $matieresCursus in doc("../xml/Matieres.xml")//matiere
             where some $matCurs in $matieresCursus/cursusApp/cursus/string() satisfies $matCurs = $cursus
             return $matieresCursus/nom}</matiere>
         </cursus>}
