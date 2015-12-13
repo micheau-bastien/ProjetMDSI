@@ -5,7 +5,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
   <xsl:template match="/">
   <html>
-    <h1>Liste des enseignants par annee</h1>
+    <h1>Liste des enseignants par groupe</h1>
     <ul>
         <xsl:apply-templates select="//enseignantGroupe"/>
     </ul>
