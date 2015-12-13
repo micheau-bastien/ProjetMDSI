@@ -1,5 +1,7 @@
 xquery version "3.0";
-
-for $etudiants in doc("Etudiants.xml")//etudiant
-where some $v in $etudiants//note/@note satisfies xs:integer($v) lt 10
-return ($etudiants/nom/string(), $etudiants/prenom/string())
+<etudiants>{
+    for $etudiants in doc("Etudiants.xml")//etudiant
+    where some $v in $etudiants//note/@note satisfies xs:integer($v) lt 10
+        return <etudiant>{($etudiants/nom, $etudiants/prenom)}
+        </etudiant>
+}</etudiants>

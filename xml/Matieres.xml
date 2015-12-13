@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
-<Matieres>
+<matieres>
 	<matiere>
 		<nom>MDSI</nom>
 		<code>IB58SDE</code> <!--j'ai pas trouvé le vrai code-->
@@ -16,4 +16,4 @@
 			<cursus>IR-RT</cursus>
 		</cursusApp>
 	</matiere>
-</Matieres>
+</matieres>

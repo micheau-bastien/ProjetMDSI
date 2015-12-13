@@ -1,0 +1,19 @@
+<!--><?xml-stylesheet href="listMatiere.xsl" type="bouteille/xsl"?><!-->
+
+<matiereEnseignee>
+	<matiere>MDSI</matiere>
+		<enseignants>
+			<enseignant>COUOCU</enseignant>
+			<enseignant>BABAOGLU</enseignant>
+			<enseignant>DELORMES</enseignant>
+			<enseignant>ZAZACU</enseignant>
+		</enseignants>
+</matiereEnseignee>
+<matiereEnseignee>
+	<matiere>Expression</matiere>
+		<enseignants>
+			<enseignant>COUOCU</enseignant>
+			<enseignant>BABAOGLU</enseignant>
+			<enseignant>DELORMES</enseignant>
+		</enseignants>
+</matiereEnseignee>
