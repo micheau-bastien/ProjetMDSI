@@ -1,4 +1,5 @@
 xquery version "3.0";
+<matieres>{
 
 for $matieres in doc("Matieres.xml")//matiere
 return 
@@ -7,6 +8,8 @@ return
         <enseignants>
         {for $enseignants in doc("Enseignants.xml")//enseignant
             where some $matEns in $enseignants/matieres/matiere/string() satisfies $matEns = $matieres/nom/string()
-            return <enseignant>{$enseignants/nom/string()}</enseignant>}
+            return <enseignant>{$enseignants/nom, $enseignants/prenom}</enseignant>}
         </enseignants>
-    </matiereEnseignee>
+    </matiereEnseignee>}
+</matieres>
+
