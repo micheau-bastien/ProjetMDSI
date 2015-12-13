@@ -3,32 +3,46 @@
 		<cursus value="MIC">
 			<groupe value="A">
 				<etudiant>
-					<nom>TOTO</nom>
-					<prenom>Bastien</prenom>
+					<nom>DOUBLEDETTE</nom>
+					<prenom>Pasrattrapage</prenom>
 					<dateNaissance jour="15" mois="mar" annee="1994" />
 					<notes>
 						<annee annee="2015">
-						<note matiere="Expression" note="12" />
+							<note matiere="Expression" note="12" />
+						</annee>
+						<annee annee="2014">
+							<note matiere="Maths" note="9" />
+							<note matiere="Ondes" note="3" />
 						</annee>
 					</notes>
 				</etudiant>
 				<etudiant>
-					<nom>TATA</nom>
+					<nom>TRIPLEDETTE</nom>
 					<prenom>Laure</prenom>
 					<dateNaissance jour="15" mois="mar" annee="1994" />
 					<notes>
 						<annee annee="2015">
-						<note matiere="Expression" note="12" />
+							<note matiere="Expression" note="12" />
+						</annee>
+						<annee annee="2014">
+							<note matiere="Maths" note="9" />
+							<note matiere="Ondes" note="3" />
+							<note matiere="Thermo" note="6" />
 						</annee>
 					</notes>
 				</etudiant>
 				<etudiant>
-					<nom>TETE</nom>
-					<prenom>Bafeen</prenom>
+					<nom>RATTRAPAGE</nom>
+					<prenom>Sansdette</prenom>
 					<dateNaissance jour="15" mois="mar" annee="1994" />
 					<notes>
 						<annee annee="2015">
-						<note matiere="Expression" note="12" />
+							<note matiere="Expression" note="1" />
+						</annee>
+						<annee annee="2015">
+							<note matiere="Expression" note="13" />
+							<note matiere="Expression" note="14" />
+							<note matiere="Expression" note="15" />
 						</annee>
 					</notes>
 				</etudiant>
@@ -38,7 +52,7 @@
 					<dateNaissance jour="15" mois="mar" annee="1994" />
 					<notes>
 						<annee annee="2015">
-						<note matiere="Expression" note="12" />
+							<note matiere="Expression" note="12" />
 						</annee>
 					</notes>
 				</etudiant>
@@ -260,7 +274,7 @@
 				</etudiant>
 			</groupe>
 		</cursus>
-		<cursus value="IR-I">
+		<cursus value="IR-RT">
 			<groupe value="A">
 				<etudiant>
 					<nom>JEAN</nom>

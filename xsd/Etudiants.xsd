@@ -2,11 +2,21 @@
 
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 
-	<xsd:element name="etudiants" type="typeEtudiants" />
+		<xsd:element name="etudiants" type="typeEtudiants">
+			<xsd:unique name="coucou">
+				<xsd:selector xpath="annee"/>
+				<xsd:field xpath="@value"/>
+			</xsd:unique>
+		</xsd:element>
 
 		<xsd:complexType name="typeEtudiants">
 			<xsd:sequence>
-				<xsd:element name="annee" type="typeAnnee" minOccurs="0" maxOccurs="unbounded" />
+				<xsd:element name="annee" type="typeAnnee" minOccurs="0" maxOccurs="unbounded">
+					<xsd:unique name="coucou2">
+						<xsd:selector xpath="cursus"/>
+						<xsd:field xpath="@value"/>
+					</xsd:unique>
+				</xsd:element>
 			</xsd:sequence>
 		</xsd:complexType>
 
