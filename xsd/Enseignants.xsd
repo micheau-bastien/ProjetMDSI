@@ -71,8 +71,8 @@
                <xsd:simpleType name="typeGrade">
                     <xsd:restriction base="xsd:string">
                          <xsd:enumeration value="prof" />
+                         <xsd:enumeration value="professeur" />
                          <xsd:enumeration value="thesard" />
-                         <xsd:enumeration value="test" />
                     </xsd:restriction>
                </xsd:simpleType>
 

@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+<?php ini_set('safe_mode', '1'); ?>
+
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -43,15 +45,17 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="#etudiantsAnnee">EtudiantsAnnee</a></li>
-            <li class="active"><a href="#etudGroupe">EtudiantsGroupe</a></li>
-            <li class="active"><a href="#etudiantsCursus">EtudiantsCursus</a></li>
+            <li class="active"><a href="index.php?page=html/etudiantsGroupe">EtudiantsGroupe</a></li>
+            <li class="active"><a href="index.php?page=html/etudiantsAnnee">EtudiantsAnnee</a></li>
+            <li class="active"><a href="index.php?page=html/etudiantsCursus">EtudiantsCursus</a></li>
+            <li class="active"><a href="index.php?page=html/matiereEnseignants">EnseignantsMDSI</a></li>
+            <li class="active"><a href="index.php?page=html/matieresEnseignant">MatieresEnseignants</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </div>
 
-
+<?php echo(shell_exec('./launch.sh')); ?>
 	<div id="hello">
 	    <div class="container">
 	    	<div class="row">
@@ -60,31 +64,29 @@
 	    			<h2>BRICARD Laure MICHEAU Bastien</h2>
 	    		</div><!-- /col-lg-8 -->
 	    	</div><!-- /row -->
+        <div class="row">
+          Résultats des query :
+          <ul>
+            <li><a href="index.php?page=resultQuery/enseignantsCursus">enseignantsCursus</a></li>
+            <li><a href="index.php?page=resultQuery/enseignantsParAnnee">enseignantsParAnnee</a></li>
+            <li><a href="index.php?page=resultQuery/enseignantsParGroupes">enseignantsParGroupes</a></li>
+            <li><a href="index.php?page=resultQuery/listeEnseignantsParMatieres">listeEnseignantsParMatieres</a></li>
+            <li><a href="index.php?page=resultQuery/listeEtudiantsDette">listeEtudiantsDette</a></li>
+            <li><a href="index.php?page=resultQuery/listeEtudiantsDetteOuRattrapage">listeEtudiantsDetteOuRattrapage</a></li>
+            <li><a href="index.php?page=resultQuery/listeEtudiantsDeuxDettesSansRattrapage">listeEtudiantsDeuxDettesSansRattrapage</a></li>
+            <li><a href="index.php?page=resultQuery/listeEtudiantsPlusDeuxDettes">listeEtudiantsPlusDeuxDettes</a></li>
+            <li><a href="index.php?page=resultQuery/listeEtudiantsRattrapageSansDette">listeEtudiantsRattrapageSansDette</a></li>
+            <li><a href="index.php?page=resultQuery/listeEtudiantsUneDetteSansRattrapage">listeEtudiantsUneDetteSansRattrapage</a></li>
+            <li><a href="index.php?page=resultQuery/matiereParCursus">matiereParCursus</a></li>
+          </ul>
+        </div>
 	    </div> <!-- /container -->
 	</div><!-- /hello -->
-	
-	<div id="green">
-    <div id="etudiantsAnnee"><br><br><br>
-  		<div class="container">
-  			<?php include "html/etudiantsAnnee.html"; ?><br><br><br>
-  		</div>
-    </div>
-	</div>
 
   <div id="etudGroupe"><br><br><br>
     <div class="container">
-      <?php include "html/etudiantsGroupe.html"; ?><br><br><br>
+      <?php $a=$_GET[page].'.html'; include $a; ?><br><br><br>
     </div>
-  </div>
-
-  <div id="etudiantsCursus"><br><br><br>
-  	<div id="skills">
-  		<div class="container">
-  			<div class="row centered">
-  				<?php include "html/etudiantsCursus.html"; ?><br><br><br>
-  			</div><!-- /row -->
-  		</div><!-- /container -->
-  	</div><!-- /skills -->
   </div>
 
     <!-- Bootstrap core JavaScript

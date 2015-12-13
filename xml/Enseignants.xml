@@ -14,9 +14,61 @@
         </groupesEnseigne>
     </enseignant>
     <enseignant>
-        <nom>BABAOGLU</nom>
-        <prenom>AZALP</prenom>
+        <nom>PAPAILHAU</nom>
+        <prenom>Arthur</prenom>
         <dateNaissance jour="15" mois="mar" annee="1994"/>
+        <grade>prof</grade>
+        <matieres>
+            <matiere>Expression</matiere>
+            <matiere>MDSI</matiere>
+            <matiere>Finance</matiere>
+            <matiere>Anglais</matiere>
+        </matieres>
+        <groupesEnseigne>
+            <groupe annee="1A" cursus="STPI" groupe="B"/>
+            <groupe annee="1A" cursus="STPI" groupe="I"/>
+            <groupe annee="1A" cursus="STPI" groupe="K"/>
+            <groupe annee="4A" cursus="GMM" groupe="A"/>
+        </groupesEnseigne>
+    </enseignant>
+    <enseignant>
+        <nom>DELORME</nom>
+        <prenom>Gautier</prenom>
+        <dateNaissance jour="1" mois="jan" annee="1994"/>
+        <grade>prof</grade>
+        <matieres>
+            <matiere>Expression</matiere>
+            <matiere>MDSI</matiere>
+            <matiere>Informatique Materielle</matiere>
+        </matieres>
+        <groupesEnseigne>
+            <groupe annee="2A" cursus="MIC" groupe="B"/>
+            <groupe annee="2A" cursus="IMACS" groupe="I"/>
+            <groupe annee="3A" cursus="GM" groupe="K"/>
+            <groupe annee="4A" cursus="GMM" groupe="A"/>
+        </groupesEnseigne>
+    </enseignant>
+    <enseignant>
+        <nom>NOEL</nom>
+        <prenom>Pierre</prenom>
+        <dateNaissance jour="18" mois="mar" annee="1994"/>
+        <grade>prof</grade>
+        <matieres>
+            <matiere>Reseaux</matiere>
+            <matiere>Thermodynamique</matiere>
+            <matiere>Petanque</matiere>
+        </matieres>
+        <groupesEnseigne>
+            <groupe annee="1A" cursus="STPI" groupe="B"/>
+            <groupe annee="2A" cursus="ICBE" groupe="I"/>
+            <groupe annee="3A" cursus="GM" groupe="K"/>
+            <groupe annee="4A" cursus="GMM" groupe="A"/>
+        </groupesEnseigne>
+    </enseignant>
+    <enseignant>
+        <nom>BABAOGLU</nom>
+        <prenom>Ozalp</prenom>
+        <dateNaissance jour="16" mois="mar" annee="1994"/>
         <grade>prof</grade>
         <matieres>
             <matiere>Expression</matiere>
