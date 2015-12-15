@@ -20,8 +20,14 @@
 
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="assets/js/chart.js"></script>
-
-
+    <style>
+      h1{
+        padding-bottom: 50px;
+      }
+      #menu,#show{
+        margin-bottom: 50px;
+      }
+    </style>
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -31,10 +37,10 @@
 
   <body>
     <div class="container">
-      <div class="row fullHeight">
+      <div class="row">
         <div id="menu" class="col-md-4">
           <div class="centered">
-            <h1 style="color : #4CAF50;">SchoolIn</h1>
+            <h1 style="font-size : 4.5em; color : #4CAF50;padding-bottom:0px;">Sch<sub><span class="glyphicon glyphicon-search" aria-hidden="true"></span></sub>olIn</h1>
           </div>
           <?php
             function activeIfDisplayed($nom){
@@ -63,10 +69,17 @@
           </div>
         </div>
         <div id="show" class="col-md-8">
-          <div class="container">
+          <div class="container-fluid">
             <?php echo(shell_exec('./launch.sh')); ?>
             <?php $a=$_GET[page].'.html';
             if($_GET[page] != null){include $a;} ?>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="container-fluid" style="margin-bottom : 20px;">
+          <div class="centered">
+            Made with  <span class="glyphicon glyphicon-heart-empty" aria-hidden="true" style="color:#d9534f"></span>  by Bastien & Laure.
           </div>
         </div>
       </div>
