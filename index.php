@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<?php ini_set('safe_mode', '1'); ?>
 
 <html lang="en">
   <head>
@@ -31,63 +30,48 @@
   </head>
 
   <body>
-
-    <!-- Fixed navbar -->
-    <div class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Accueil</a>
+    <div class="container">
+      <div class="row fullHeight">
+        <div id="menu" class="col-md-4">
+          <div class="centered">
+            <h1>SchoolIn</h1>
+          </div>
+          <?php
+            function activeIfDisplayed($nom){
+              if ($_GET[page] == $nom){
+                echo "active";
+              }
+            }
+          ?>
+          <div class="list-group">
+            <a href="index.php?page=html/etudiantsGroupe" class="list-group-item <?php activeIfDisplayed('html/etudiantsGroupe'); ?>">EtudiantsGroupe</a>
+            <a class="list-group-item <?php activeIfDisplayed('html/etudiantsAnnee'); ?> " href="index.php?page=html/etudiantsAnnee">EtudiantsAnnee</a>
+            <a class="list-group-item <?php activeIfDisplayed('html/etudiantsCursus'); ?>" href="index.php?page=html/etudiantsCursus">EtudiantsCursus</a>
+            <a class="list-group-item <?php activeIfDisplayed('html/matiereEnseignants'); ?>" href="index.php?page=html/matiereEnseignants">EnseignantsMDSI</a>
+            <a class="list-group-item <?php activeIfDisplayed('html/matieresEnseignant'); ?>" href="index.php?page=html/matieresEnseignant">MatieresEnseignants</a>
+            <a class="list-group-item <?php activeIfDisplayed('resultQuery/enseignantsCursus'); ?>" href="index.php?page=resultQuery/enseignantsCursus">enseignantsCursus</a>
+            <a class="list-group-item <?php activeIfDisplayed('resultQuery/enseignantsParAnnee'); ?>" href="index.php?page=resultQuery/enseignantsParAnnee">enseignantsParAnnee</a>
+            <a class="list-group-item <?php activeIfDisplayed('resultQuery/enseignantsParGroupes'); ?>" href="index.php?page=resultQuery/enseignantsParGroupes">enseignantsParGroupes</a>
+            <a class="list-group-item <?php activeIfDisplayed('resultQuery/listeEnseignantsParMatieres'); ?>" href="index.php?page=resultQuery/listeEnseignantsParMatieres">listeEnseignantsParMatieres</a>
+            <a class="list-group-item <?php activeIfDisplayed('resultQuery/listeEtudiantsDette'); ?>" href="index.php?page=resultQuery/listeEtudiantsDette">listeEtudiantsDette</a>
+            <a class="list-group-item <?php activeIfDisplayed('resultQuery/listeEtudiantsDetteOuRattrapage'); ?>" href="index.php?page=resultQuery/listeEtudiantsDetteOuRattrapage">listeEtudiantsDetteOuRattrapage</a>
+            <a class="list-group-item <?php activeIfDisplayed('resultQuery/listeEtudiantsDeuxDettesSansRattrapage'); ?>" href="index.php?page=resultQuery/listeEtudiantsDeuxDettesSansRattrapage">listeEtudiantsDeuxDettesSansRattrapage</a>
+            <a class="list-group-item <?php activeIfDisplayed('resultQuery/listeEtudiantsPlusDeuxDettes'); ?>" href="index.php?page=resultQuery/listeEtudiantsPlusDeuxDettes">listeEtudiantsPlusDeuxDettes</a>
+            <a class="list-group-item <?php activeIfDisplayed('resultQuery/listeEtudiantsRattrapageSansDette'); ?>" href="index.php?page=resultQuery/listeEtudiantsRattrapageSansDette">listeEtudiantsRattrapageSansDette</a>
+            <a class="list-group-item <?php activeIfDisplayed('resultQuery/listeEtudiantsUneDetteSansRattrapage'); ?>" href="index.php?page=resultQuery/listeEtudiantsUneDetteSansRattrapage">listeEtudiantsUneDetteSansRattrapage</a>
+            <a class="list-group-item <?php activeIfDisplayed('resultQuery/matiereParCursus'); ?>" href="index.php?page=resultQuery/matiereParCursus">matiereParCursus</a>
+          </div>
         </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="index.php?page=html/etudiantsGroupe">EtudiantsGroupe</a></li>
-            <li class="active"><a href="index.php?page=html/etudiantsAnnee">EtudiantsAnnee</a></li>
-            <li class="active"><a href="index.php?page=html/etudiantsCursus">EtudiantsCursus</a></li>
-            <li class="active"><a href="index.php?page=html/matiereEnseignants">EnseignantsMDSI</a></li>
-            <li class="active"><a href="index.php?page=html/matieresEnseignant">MatieresEnseignants</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
+        <div id="show" class="col-md-8">
+          <div class="container">
+            <?php echo(shell_exec('./launch.sh')); ?>
+            <?php $a=$_GET[page].'.html';
+            if($_GET[page] != null){include $a;} ?>
+          </div>
+        </div>
       </div>
     </div>
 
-<?php echo(shell_exec('./launch.sh')); ?>
-	<div id="hello">
-	    <div class="container">
-	    	<div class="row">
-	    		<div class="col-lg-8 col-lg-offset-2 centered">
-	    			<h1>Projet MDSI</h1>
-	    			<h2>BRICARD Laure MICHEAU Bastien</h2>
-	    		</div><!-- /col-lg-8 -->
-	    	</div><!-- /row -->
-        <div class="row">
-          Résultats des query :
-          <ul>
-            <li><a href="index.php?page=resultQuery/enseignantsCursus">enseignantsCursus</a></li>
-            <li><a href="index.php?page=resultQuery/enseignantsParAnnee">enseignantsParAnnee</a></li>
-            <li><a href="index.php?page=resultQuery/enseignantsParGroupes">enseignantsParGroupes</a></li>
-            <li><a href="index.php?page=resultQuery/listeEnseignantsParMatieres">listeEnseignantsParMatieres</a></li>
-            <li><a href="index.php?page=resultQuery/listeEtudiantsDette">listeEtudiantsDette</a></li>
-            <li><a href="index.php?page=resultQuery/listeEtudiantsDetteOuRattrapage">listeEtudiantsDetteOuRattrapage</a></li>
-            <li><a href="index.php?page=resultQuery/listeEtudiantsDeuxDettesSansRattrapage">listeEtudiantsDeuxDettesSansRattrapage</a></li>
-            <li><a href="index.php?page=resultQuery/listeEtudiantsPlusDeuxDettes">listeEtudiantsPlusDeuxDettes</a></li>
-            <li><a href="index.php?page=resultQuery/listeEtudiantsRattrapageSansDette">listeEtudiantsRattrapageSansDette</a></li>
-            <li><a href="index.php?page=resultQuery/listeEtudiantsUneDetteSansRattrapage">listeEtudiantsUneDetteSansRattrapage</a></li>
-            <li><a href="index.php?page=resultQuery/matiereParCursus">matiereParCursus</a></li>
-          </ul>
-        </div>
-	    </div> <!-- /container -->
-	</div><!-- /hello -->
-
-  <div id="etudGroupe"><br><br><br>
-    <div class="container">
-      <?php $a=$_GET[page].'.html'; include $a; ?><br><br><br>
-    </div>
-  </div>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
