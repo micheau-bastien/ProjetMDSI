@@ -1,0 +1,10 @@
+xquery version "3.0";
+
+<etudiants>{
+for $etudiants in doc("../xml/Etudiants.xml")//etudiant
+return
+    <etudiant>{($etudiants/nom, $etudiants/prenom)}
+    <nbDettes>{count($etudiants/notes/annee[@annee < 2015]//note[@note < 10]) }</nbDettes>
+    <nbRattrapages>{count($etudiants/notes/annee[@annee = 2015]//note[@note < 10]) }</nbRattrapages>
+    </etudiant>}
+</etudiants>

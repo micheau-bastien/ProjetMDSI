@@ -5,7 +5,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
   <xsl:template match="/">
   <html>
-  	<h1>Etudiants par Groupe</h1>
+  	<h1>Liste des enseignants par matières</h1>
   	<table class="table table-hover table-bordered">
       	<xsl:apply-templates select="//matiere"/>
   	</table>

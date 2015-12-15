@@ -45,3 +45,6 @@ xsltproc -output  resultQuery/listeEtudiantsUneDetteSansRattrapage.html xsl/XSL-
 
 xqilla query/matiereParCursus -o xml/resultQuery/matiereParCursus.xml;
 xsltproc -output  resultQuery/matiereParCursus.html xsl/XSL-Query/matiereParCursus.xsl xml/resultQuery/matiereParCursus.xml;
+
+xqilla query/nbDettesEtRattrapagesEtudiants -o xml/resultQuery/nbDettesEtRattrapagesEtudiants.xml;
+xsltproc -output  resultQuery/nbDettesEtRattrapagesEtudiants.html xsl/XSL-Query/nbDettesEtRattrapagesEtudiants.xsl xml/resultQuery/nbDettesEtRattrapagesEtudiants.xml;
