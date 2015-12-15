@@ -3,6 +3,9 @@ xmllint --noout --schema xsd/Etudiants.xsd xml/Etudiants.xml;
 xmllint --noout --schema xsd/Enseignants.xsd xml/Enseignants.xml;
 xmllint --noout --schema xsd/Matieres.xsd xml/Matieres.xml;
 
+xsltproc -output  html/etudiantsCursus.html xsl/etudiantsCursus.xsl xml/Etudiants.xml;
+
+
 xqilla query/listeEtudiantsDeuxDettesSansRattrapage -o xml/resultQuery/listeEtudiantsDeuxDettesSansRattrapages.xml;
 xsltproc -output  resultQuery/listeEtudiantsDeuxDettesSansRattrapage.html xsl/XSL-Query/listeEtudiantsDeuxDettesSansRattrapage.xsl xml/resultQuery/listeEtudiantsDeuxDettesSansRattrapages.xml;
 

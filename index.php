@@ -34,7 +34,7 @@
       <div class="row fullHeight">
         <div id="menu" class="col-md-4">
           <div class="centered">
-            <h1>SchoolIn</h1>
+            <h1 style="color : #4CAF50;">SchoolIn</h1>
           </div>
           <?php
             function activeIfDisplayed($nom){
