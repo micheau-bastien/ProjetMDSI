@@ -1,0 +1,11 @@
+xquery version "3.0";
+<listeEnseignantsParMatiere>
+{for $matieres in doc("../xml/Matieres.xml")//nom
+    return
+        <matiere>{$matieres}
+        <enseignants>
+            {for $enseignant in doc("../xml/Enseignants.xml")//enseignant
+            where (some $matiere in $enseignant//matiere satisfies $matiere = $matieres)
+            return <enseignant>{$enseignant/nom}</enseignant>}</enseignants>
+        </matiere>}
+</listeEnseignantsParMatiere>

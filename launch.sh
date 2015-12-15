@@ -4,6 +4,13 @@ xmllint --noout --schema xsd/Enseignants.xsd xml/Enseignants.xml;
 xmllint --noout --schema xsd/Matieres.xsd xml/Matieres.xml;
 
 xsltproc -output  html/etudiantsCursus.html xsl/etudiantsCursus.xsl xml/Etudiants.xml;
+xsltproc -output  html/etudiantsAnnee.html xsl/etudiantsAnnee.xsl xml/Etudiants.xml;
+xsltproc -output  html/etudiantsGroupe.html xsl/etudiantsGroupe.xsl xml/Etudiants.xml;
+xsltproc -output  html/matieresEnseignant.html xsl/matieresEnseignant.xsl xml/Enseignants.xml;
+xsltproc -output  html/matieresEnseignants.html xsl/matieresEnseignants.xsl xml/Enseignants.xml;
+
+xqilla query/listeEnseignantsParMatiere -o xml/resultQuery/listeEnseignantsParMatiere.xml;
+xsltproc -output  resultQuery/listeEnseignantsParMatiere.html xsl/listeEnseignantsParMatiere.xsl xml/resultQuery/listeEnseignantsParMatiere.xml;
 
 
 xqilla query/listeEtudiantsDeuxDettesSansRattrapage -o xml/resultQuery/listeEtudiantsDeuxDettesSansRattrapages.xml;

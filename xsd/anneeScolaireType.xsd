@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+<xsd:simpleType name="typeAnneeScolaire">
+  <xsd:restriction base="xsd:string">
+    <xsd:enumeration value="1A" />
+    <xsd:enumeration value="2A" />
+    <xsd:enumeration value="3A" />
+    <xsd:enumeration value="4A" />
+    <xsd:enumeration value="5A" />
+  </xsd:restriction>
+</xsd:simpleType>
+
+</xsd:schema>

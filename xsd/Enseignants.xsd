@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<xsd:include schemaLocation="cursusType.xsd"/>
 
      <xsd:element name="enseignants" type="typeEnseignants" />
 
@@ -34,7 +35,7 @@
 
                     <xsd:complexType name="typeGroupe">
                          <xsd:attribute name="annee" type="typeAnneeAttr" use="required" />
-                         <xsd:attribute name="cursus" type="typeCursusAttr" use="required" />
+                         <xsd:attribute name="cursus" type="typeCursus" use="required" />
                          <xsd:attribute name="groupe" type="typeGroupeAttr" use="required" />
                     </xsd:complexType>
 
@@ -45,20 +46,6 @@
                                         <xsd:enumeration value="3A" />
                                         <xsd:enumeration value="4A" />
                                         <xsd:enumeration value="5A" />
-                                   </xsd:restriction>
-                         </xsd:simpleType>
-
-                         <xsd:simpleType name="typeCursusAttr">
-                                   <xsd:restriction base="xsd:string">
-                                        <xsd:enumeration value="STPI1" />
-                                        <xsd:enumeration value="STPI2" />
-                                        <xsd:enumeration value="STPI3" />
-                                        <xsd:enumeration value="IR" />
-                                        <xsd:enumeration value="IR-I" />
-                                        <xsd:enumeration value="IR-RT" />
-                                        <xsd:enumeration value="GMM" />
-                                        <xsd:enumeration value="MIC" />
-                                        <xsd:enumeration value="IMACS" />
                                    </xsd:restriction>
                          </xsd:simpleType>
 

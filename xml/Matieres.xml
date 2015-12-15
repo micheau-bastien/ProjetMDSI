@@ -4,16 +4,51 @@
 	<matiere>
 		<nom>MDSI</nom>
 		<code>IB58SDE</code> <!--j'ai pas trouvé le vrai code-->
-		<cursusApp>
-			<cursus>IR-I</cursus>
-		</cursusApp>
-	</matiere>	
+		<cursuses>
+			<infoCursus>
+				<annee>1A</annee>
+				<cursus>STPI1</cursus>
+			</infoCursus>
+		</cursuses>
+	</matiere>
 	<matiere>
 		<nom>Expression</nom>
 		<code>IERSDE</code> <!--j'ai pas trouvé le vrai code-->
-		<cursusApp>
-			<cursus>IR-I</cursus>
-			<cursus>IR-RT</cursus>
-		</cursusApp>
+		<cursuses>
+			<infoCursus>
+				<annee>2A</annee>
+				<cursus>STPI2</cursus>
+			</infoCursus>
+		</cursuses>
+	</matiere>
+	<matiere>
+		<nom>Anglais</nom>
+		<code>ANG123</code> <!--j'ai pas trouvé le vrai code-->
+		<cursuses>
+			<infoCursus>
+				<annee>3A</annee>
+				<cursus>STPI3</cursus>
+			</infoCursus>
+		</cursuses>
+	</matiere>
+	<matiere>
+		<nom>Finance</nom>
+		<code>FIN123</code> <!--j'ai pas trouvé le vrai code-->
+		<cursuses>
+			<infoCursus>
+				<annee>2A</annee>
+				<cursus>STPI2</cursus>
+			</infoCursus>
+		</cursuses>
+	</matiere>
+	<matiere>
+		<nom>Informatique Materielle</nom>
+		<code>IMAT123</code> <!--j'ai pas trouvé le vrai code-->
+		<cursuses>
+			<infoCursus>
+				<annee>1A</annee>
+				<cursus>STPI1</cursus>
+			</infoCursus>
+		</cursuses>
 	</matiere>
 </matieres>

@@ -25,9 +25,9 @@
             <matiere>Anglais</matiere>
         </matieres>
         <groupesEnseigne>
-            <groupe annee="1A" cursus="STPI" groupe="B"/>
-            <groupe annee="1A" cursus="STPI" groupe="I"/>
-            <groupe annee="1A" cursus="STPI" groupe="K"/>
+            <groupe annee="1A" cursus="STPI1" groupe="B"/>
+            <groupe annee="1A" cursus="STPI1" groupe="I"/>
+            <groupe annee="1A" cursus="STPI1" groupe="K"/>
             <groupe annee="4A" cursus="GMM" groupe="A"/>
         </groupesEnseigne>
     </enseignant>
@@ -59,7 +59,7 @@
             <matiere>Petanque</matiere>
         </matieres>
         <groupesEnseigne>
-            <groupe annee="1A" cursus="STPI" groupe="B"/>
+            <groupe annee="1A" cursus="STPI1" groupe="B"/>
             <groupe annee="2A" cursus="ICBE" groupe="I"/>
             <groupe annee="3A" cursus="GM" groupe="K"/>
             <groupe annee="4A" cursus="GMM" groupe="A"/>

@@ -1,6 +1,9 @@
 <?xml version="1.0"?>
 
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<xsd:include schemaLocation="cursusType.xsd"/>
+<xsd:include schemaLocation="dateType.xsd"/>
+<xsd:include schemaLocation="anneeScolaireType.xsd"/>
 
 		<xsd:element name="etudiants" type="typeEtudiants">
 			<xsd:unique name="coucou">
@@ -22,39 +25,17 @@
 
 		<xsd:complexType name="typeAnnee">
 			<xsd:sequence>
-            	<xsd:element name="cursus" type="typeCursus" minOccurs="1" maxOccurs="unbounded"  />
+            	<xsd:element name="cursus" type="typeCursusGlobal" minOccurs="1" maxOccurs="unbounded"  />
 			</xsd:sequence>
-			<xsd:attribute name="value" type="typeAnneeAttr" use="required" />
+			<xsd:attribute name="value" type="typeAnneeScolaire" use="required" />
 		</xsd:complexType>
 
-		<xsd:simpleType name="typeAnneeAttr">
-			<xsd:restriction base="xsd:string">
-				<xsd:enumeration value="1A" />
-				<xsd:enumeration value="2A" />
-				<xsd:enumeration value="3A" />
-				<xsd:enumeration value="4A" />
-				<xsd:enumeration value="5A" />
-			</xsd:restriction>
-		</xsd:simpleType>
-		
-		<xsd:complexType name="typeCursus">
+		<xsd:complexType name="typeCursusGlobal">
 			<xsd:sequence>
             	<xsd:element name="groupe" type="typeGroupe" minOccurs="1" maxOccurs="unbounded"  />
 			</xsd:sequence>
-			<xsd:attribute name="value" type="typeCursusAttr" use="required" />
+			<xsd:attribute name="value" type="typeCursus" use="required" />
 		</xsd:complexType>
-
-		<xsd:simpleType name="typeCursusAttr">
-			<xsd:restriction base="xsd:string">
-				<xsd:enumeration value="STPI" />
-				<xsd:enumeration value="IR" />
-				<xsd:enumeration value="IR-I" />
-				<xsd:enumeration value="IR-RT" />
-				<xsd:enumeration value="GMM" />
-				<xsd:enumeration value="MIC" />
-				<xsd:enumeration value="IMACS" />
-			</xsd:restriction>
-		</xsd:simpleType>
 
 		<xsd:complexType name="typeGroupe">
 			<xsd:sequence>
@@ -62,7 +43,7 @@
 			</xsd:sequence>
 			<xsd:attribute name="value" type="typeGroupeAttr" use="required" />
 		</xsd:complexType>
-		
+
 		<xsd:simpleType name="typeGroupeAttr">
 			<xsd:restriction base="xsd:string">
 				<xsd:pattern value="([A-Z]|[a-z])[1-9]?[1-9]?" />
@@ -73,43 +54,20 @@
 			<xsd:sequence>
             	<xsd:element name="nom" type="xsd:string" minOccurs="1" maxOccurs="1"/>
             	<xsd:element name="prenom" type="xsd:string" minOccurs="1" maxOccurs="1" />
-            	<xsd:element name="dateNaissance" type="typeDate" minOccurs="0" maxOccurs="1" />   
-            	<xsd:element name="notes" type="typeNotes" minOccurs="1" maxOccurs="1"/>   
+            	<xsd:element name="dateNaissance" type="typeDate" minOccurs="0" maxOccurs="1" />
+            	<xsd:element name="notes" type="typeNotes" minOccurs="1" maxOccurs="1"/>
 			</xsd:sequence>
 		</xsd:complexType>
 
-		<xsd:complexType name="typeDate">
-          <xsd:attribute name="jour" type="xsd:integer" use="required" />
-          <xsd:attribute name="mois" type="typeMois" use="required" />
-          <xsd:attribute name="annee" type="xsd:integer" use="required" />
-     	</xsd:complexType>
-
-	    <xsd:simpleType name="typeMois">
-	         <xsd:restriction base="xsd:string">
-	              <xsd:enumeration value="jan" />
-	              <xsd:enumeration value="fev" />
-	              <xsd:enumeration value="mar" />
-	              <xsd:enumeration value="avr" />
-	              <xsd:enumeration value="mai" />
-	              <xsd:enumeration value="jun" />
-	              <xsd:enumeration value="jui" />
-	              <xsd:enumeration value="aou" />
-	              <xsd:enumeration value="sep" />
-	              <xsd:enumeration value="oct" />
-	              <xsd:enumeration value="nov" />
-	              <xsd:enumeration value="dec" />
-	         </xsd:restriction>
-	    </xsd:simpleType>
-
 	    <xsd:complexType name="typeNotes">
 			<xsd:sequence>
-            	<xsd:element name="annee" type="typeAnneeNotes" minOccurs="1" maxOccurs="unbounded"/> 
+            	<xsd:element name="annee" type="typeAnneeNotes" minOccurs="1" maxOccurs="unbounded"/>
 			</xsd:sequence>
 		</xsd:complexType>
 
 			<xsd:complexType name="typeAnneeNotes">
 				<xsd:sequence>
-	            	<xsd:element name="note" type="typeNote" minOccurs="1" maxOccurs="unbounded"/> 
+	            	<xsd:element name="note" type="typeNote" minOccurs="1" maxOccurs="unbounded"/>
 				</xsd:sequence>
 				<xsd:attribute name="annee" type="xsd:integer" use="required" />
 			</xsd:complexType>

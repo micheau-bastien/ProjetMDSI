@@ -46,6 +46,7 @@
           <div class="list-group">
             <a href="index.php?page=html/etudiantsGroupe" class="list-group-item <?php activeIfDisplayed('html/etudiantsGroupe'); ?>">EtudiantsGroupe</a>
             <a class="list-group-item <?php activeIfDisplayed('html/etudiantsAnnee'); ?> " href="index.php?page=html/etudiantsAnnee">EtudiantsAnnee</a>
+            <a class="list-group-item <?php activeIfDisplayed('resultQuery/listeEnseignantsParMatiere'); ?> " href="index.php?page=resultQuery/listeEnseignantsParMatiere">listeEnseignantsParMatiere</a>
             <a class="list-group-item <?php activeIfDisplayed('html/etudiantsCursus'); ?>" href="index.php?page=html/etudiantsCursus">EtudiantsCursus</a>
             <a class="list-group-item <?php activeIfDisplayed('html/matiereEnseignants'); ?>" href="index.php?page=html/matiereEnseignants">EnseignantsMDSI</a>
             <a class="list-group-item <?php activeIfDisplayed('html/matieresEnseignant'); ?>" href="index.php?page=html/matieresEnseignant">MatieresEnseignants</a>
