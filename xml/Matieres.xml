@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
 <matieres>
-	<matiere>
+	<matiere code="IB58SDE">
 		<nom>MDSI</nom>
-		<code>IB58SDE</code> <!--j'ai pas trouvé le vrai code-->
 		<cursuses>
 			<infoCursus>
 				<annee>1A</annee>
@@ -11,9 +10,8 @@
 			</infoCursus>
 		</cursuses>
 	</matiere>
-	<matiere>
+	<matiere  code="EXP8SDE">
 		<nom>Expression</nom>
-		<code>IERSDE</code> <!--j'ai pas trouvé le vrai code-->
 		<cursuses>
 			<infoCursus>
 				<annee>2A</annee>
@@ -21,9 +19,8 @@
 			</infoCursus>
 		</cursuses>
 	</matiere>
-	<matiere>
+	<matiere  code="ANG8SDE">
 		<nom>Anglais</nom>
-		<code>ANG123</code> <!--j'ai pas trouvé le vrai code-->
 		<cursuses>
 			<infoCursus>
 				<annee>3A</annee>
@@ -31,9 +28,8 @@
 			</infoCursus>
 		</cursuses>
 	</matiere>
-	<matiere>
+	<matiere  code="ANG8SDE">
 		<nom>Anglais</nom>
-		<code>FIN123</code> <!--j'ai pas trouvé le vrai code-->
 		<cursuses>
 			<infoCursus>
 				<annee>2A</annee>
@@ -41,9 +37,8 @@
 			</infoCursus>
 		</cursuses>
 	</matiere>
-	<matiere>
+	<matiere  code="IMA8SDE">
 		<nom>Informatique Materielle</nom>
-		<code>IMAT123</code> <!--j'ai pas trouvé le vrai code-->
 		<cursuses>
 			<infoCursus>
 				<annee>1A</annee>
