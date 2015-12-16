@@ -9,17 +9,11 @@
     <meta name="author" content="">
 
     <title>BRICARD MICHEAU MDSI</title>
-
-    <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="assets/css/main.css" rel="stylesheet">
     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/project.css" rel="stylesheet">
-
-    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="assets/js/chart.js"></script>
     <style>
       h1{
         padding-bottom: 50px;
@@ -70,7 +64,7 @@
         </div>
         <div id="show" class="col-md-8">
           <div class="container-fluid">
-            <?php echo(shell_exec('./launch.sh')); ?>
+            <?php system('./launch.sh'); ?>
             <?php $a=$_GET[page].'.html';
             if($_GET[page] != null){include $a;} ?>
           </div>
@@ -84,11 +78,5 @@
         </div>
       </div>
     </div>
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="assets/js/bootstrap.js"></script>
   </body>
 </html>

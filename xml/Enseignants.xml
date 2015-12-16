@@ -7,6 +7,7 @@
         <matieres>
             <matiere>Expression</matiere>
             <matiere>MDSI</matiere>
+            <matiere>Petanque</matiere>
         </matieres>
         <groupesEnseigne>
             <groupe annee="4A" cursus="IR-I" groupe="B"/>
@@ -20,9 +21,10 @@
         <grade>prof</grade>
         <matieres>
             <matiere>Expression</matiere>
-            <matiere>MDSI</matiere>
             <matiere>Finance</matiere>
             <matiere>Anglais</matiere>
+            <matiere>Petanque</matiere>
+            <matiere>POO</matiere>
         </matieres>
         <groupesEnseigne>
             <groupe annee="1A" cursus="STPI1" groupe="B"/>
@@ -32,12 +34,47 @@
         </groupesEnseigne>
     </enseignant>
     <enseignant>
+        <nom>NAIM</nom>
+        <prenom>Yael</prenom>
+        <dateNaissance jour="22" mois="nov" annee="1980"/>
+        <grade>prof</grade>
+        <matieres>
+            <matiere>Expression</matiere>
+            <matiere>Informatique Materielle</matiere>
+            <matiere>Anglais</matiere>
+            <matiere>POO</matiere>
+        </matieres>
+        <groupesEnseigne>
+            <groupe annee="2A" cursus="MIC" groupe="B"/>
+            <groupe annee="2A" cursus="MIC" groupe="A"/>
+            <groupe annee="2A" cursus="IMACS" groupe="B"/>
+            <groupe annee="4A" cursus="IR-RT" groupe="A"/>
+        </groupesEnseigne>
+    </enseignant>
+    <enseignant>
+        <nom>FOURNIOLS</nom>
+        <prenom>Jean-Yves</prenom>
+        <dateNaissance jour="1" mois="nov" annee="1980"/>
+        <grade>prof</grade>
+        <matieres>
+            <matiere>Petanque</matiere>
+            <matiere>Informatique Materielle</matiere>
+            <matiere>Anglais</matiere>
+        </matieres>
+        <groupesEnseigne>
+            <groupe annee="4A" cursus="IR-I" groupe="B"/>
+            <groupe annee="2A" cursus="MIC" groupe="B"/>
+            <groupe annee="2A" cursus="IMACS" groupe="A"/>
+            <groupe annee="4A" cursus="IR-RT" groupe="A"/>
+        </groupesEnseigne>
+    </enseignant>
+    <enseignant>
         <nom>DELORME</nom>
         <prenom>Gautier</prenom>
         <dateNaissance jour="1" mois="jan" annee="1994"/>
         <grade>prof</grade>
         <matieres>
-            <matiere>Expression</matiere>
+            <matiere>Petanque</matiere>
             <matiere>MDSI</matiere>
             <matiere>Informatique Materielle</matiere>
         </matieres>
@@ -80,25 +117,13 @@
         </groupesEnseigne>
     </enseignant>
     <enseignant>
-        <nom>DELORMES</nom>
-        <prenom>Gautier</prenom>
-        <dateNaissance jour="15" mois="mar" annee="1994"/>
-        <grade>prof</grade>
-        <matieres>
-            <matiere>Expression</matiere>
-            <matiere>MDSI</matiere>
-        </matieres>
-        <groupesEnseigne>
-            <groupe annee="2A" cursus="IR-I" groupe="B"/>
-        </groupesEnseigne>
-    </enseignant>
-    <enseignant>
         <nom>ZAZACU</nom>
         <prenom>Poi</prenom>
         <dateNaissance jour="15" mois="mar" annee="1994"/>
         <grade>prof</grade>
         <matieres>
             <matiere>MDSI</matiere>
+            <matiere>Petanque</matiere>
         </matieres>
         <groupesEnseigne>
             <groupe annee="4A" cursus="IR-I" groupe="B"/>

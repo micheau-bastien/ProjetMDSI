@@ -6,15 +6,15 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <xsl:template match="/">
   <html>
     <h1>Etudiants ayant une dette sans rattrapage</h1>
-    <ul>
+    <div class="list-group">
         <xsl:apply-templates select="//etudiants"/>
-    </ul>
+    </div>
   </html>
   </xsl:template>
 
   <xsl:template match="//etudiants">
       <xsl:for-each select="descendant::etudiant">
-        <li><xsl:value-of select="."/></li>
+        <a href="#" class="list-group-item"><xsl:value-of select="."/></a>
       </xsl:for-each>
   </xsl:template>
 

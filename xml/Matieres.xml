@@ -37,6 +37,15 @@
 			</infoCursus>
 		</cursuses>
 	</matiere>
+	<matiere  code="PETASDE">
+		<nom>Petanque</nom>
+		<cursuses>
+			<infoCursus>
+				<annee>2A</annee>
+				<cursus>STPI2</cursus>
+			</infoCursus>
+		</cursuses>
+	</matiere>
 	<matiere  code="IMA8SDE">
 		<nom>Informatique Materielle</nom>
 		<cursuses>
