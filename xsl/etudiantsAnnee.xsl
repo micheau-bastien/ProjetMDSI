@@ -1,3 +1,5 @@
+<!-- VERSION TABLEAU : BUG>
+
 <?xml version="1.0"?>
 
 <xsl:stylesheet version="1.0"
@@ -5,7 +7,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
   <xsl:template match="/">
     <html>
-    	<h1>Etudiants par Annee blabla</h1>
+    	<h1>Etudiants par Annee </h1>
     	<ul>
         	<xsl:apply-templates select="etudiants/annee"/>
     	</ul>
@@ -24,16 +26,15 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   </xsl:template>
 
 </xsl:stylesheet>
-<<<<<<< HEAD:xsl/etudiantAnnee.xsl
 
 
+<!-->
 
-<!-- VERSION TABLEAU : BUG>
+
 
 <?xml version="1.0"?>
 
-<xsl:stylesheet version="1.0"
-xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
   <xsl:template match="/etudiants">
     <html>
@@ -50,10 +51,8 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
         <xsl:for-each select="descendant::etudiant">
           <td><xsl:value-of select="."/></td>
       </xsl:for-each>
-      </tr>
+    </tr>
   </xsl:template>
 
 </xsl:stylesheet>
-<!-->
-=======
->>>>>>> origin/master:xsl/etudiantsAnnee.xsl
+

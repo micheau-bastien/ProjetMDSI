@@ -50,24 +50,6 @@
             }
           ?>
           <div class="list-group">
-<<<<<<< HEAD
-            <a class="list-group-item <?php activeIfDisplayed('resultQuery/enseignantsParAnnee'); ?>" href="index.php?page=resultQuery/enseignantsParAnnee">Enseignants par Annee</a>
-            <a class="list-group-item <?php activeIfDisplayed('resultQuery/enseignantsCursus'); ?>" href="index.php?page=resultQuery/enseignantsCursus">Enseignants par Cursus</a>
-            <a class="list-group-item <?php activeIfDisplayed('resultQuery/enseignantsParGroupes'); ?>" href="index.php?page=resultQuery/enseignantsParGroupes">Enseignants par Groupes</a>
-            <a class="list-group-item <?php activeIfDisplayed('resultQuery/listeEnseignantsParMatieres'); ?>" href="index.php?page=resultQuery/listeEnseignantsParMatieres">Enseignants par Matieres</a>
-            <a class="list-group-item <?php activeIfDisplayed('html/matieresEnseignant'); ?>" href="index.php?page=html/matieresEnseignant">Enseignants par Matieres2</a>
-            <a class="list-group-item <?php activeIfDisplayed('html/matiereEnseignants'); ?>" href="index.php?page=html/matiereEnseignants">Enseignants de MDSI</a>
-            <a href="index.php?page=html/etudiantsAnnee" class="list-group-item <?php activeIfDisplayed('html/etudiantsAnnee'); ?>">Etudiants par Annee</a>
-            <a class="list-group-item <?php activeIfDisplayed('html/etudiantsCursus'); ?>" href="index.php?page=html/etudiantsCursus">Etudiants par Cursus</a>
-            <a href="index.php?page=html/etudiantsGroupe" class="list-group-item <?php activeIfDisplayed('html/etudiantsGroupe'); ?>">Etudiants par Groupe</a>
-            <a class="list-group-item <?php activeIfDisplayed('resultQuery/listeEtudiantsDette'); ?>" href="index.php?page=resultQuery/listeEtudiantsDette">Etudiants avec Dettes</a>
-            <a class="list-group-item <?php activeIfDisplayed('resultQuery/listeEtudiantsDetteOuRattrapage'); ?>" href="index.php?page=resultQuery/listeEtudiantsDetteOuRattrapage">Etudiants avec Dettes Ou Rattrapages</a>
-            <a class="list-group-item <?php activeIfDisplayed('resultQuery/listeEtudiantsDeuxDettesSansRattrapage'); ?>" href="index.php?page=resultQuery/listeEtudiantsDeuxDettesSansRattrapage">Etudiants avec deux Dettes sans Rattrapage</a>
-            <a class="list-group-item <?php activeIfDisplayed('resultQuery/listeEtudiantsPlusDeuxDettes'); ?>" href="index.php?page=resultQuery/listeEtudiantsPlusDeuxDettes">Etudiants avec plus de deux Dettes</a>
-            <a class="list-group-item <?php activeIfDisplayed('resultQuery/listeEtudiantsRattrapageSansDette'); ?>" href="index.php?page=resultQuery/listeEtudiantsRattrapageSansDette">Etudiants avec Rattrapage sans Dette</a>
-            <a class="list-group-item <?php activeIfDisplayed('resultQuery/listeEtudiantsUneDetteSansRattrapage'); ?>" href="index.php?page=resultQuery/listeEtudiantsUneDetteSansRattrapage">Etudiants avec une Dette sans Rattrapage</a>
-            <a class="list-group-item <?php activeIfDisplayed('resultQuery/matiereParCursus'); ?>" href="index.php?page=resultQuery/matiereParCursus">Matiere par Cursus</a>
-=======
             <a href="index.php?page=html/etudiantsGroupe" class="list-group-item <?php activeIfDisplayed('html/etudiantsGroupe'); ?>">Etudiants par Groupe</a>
             <a class="list-group-item <?php activeIfDisplayed('html/etudiantsAnnee'); ?> " href="index.php?page=html/etudiantsAnnee">Etudiants par Annee</a>
             <a class="list-group-item <?php activeIfDisplayed('html/etudiantsCursus'); ?>" href="index.php?page=html/etudiantsCursus">Etudiants par Cursus</a>
@@ -83,8 +65,7 @@
             <a class="list-group-item <?php activeIfDisplayed('resultQuery/listeEtudiantsPlusDeuxDettes'); ?>" href="index.php?page=resultQuery/listeEtudiantsPlusDeuxDettes">Etudiants avec Plus de Deux Dettes</a>
             <a class="list-group-item <?php activeIfDisplayed('resultQuery/listeEtudiantsRattrapageSansDette'); ?>" href="index.php?page=resultQuery/listeEtudiantsRattrapageSansDette">Etudiants avec Rattrapage(s) mais pas de Dette</a>
             <a class="list-group-item <?php activeIfDisplayed('resultQuery/listeEtudiantsUneDetteSansRattrapage'); ?>" href="index.php?page=resultQuery/listeEtudiantsUneDetteSansRattrapage">Etudiants avec Une Dette Sans Rattrapage</a>
-            <a class="list-group-item <?php activeIfDisplayed('resultQuery/nbDettesEtRattrapagesEtudiants'); ?>" href="index.php?page=resultQuery/nbDettesEtRattrapagesEtudiants">nbDettesEtRattrapagesEtudiants</a>
->>>>>>> origin/master
+            <a class="list-group-item <?php activeIfDisplayed('resultQuery/nbDettesEtRattrapagesEtudiants'); ?>" href="index.php?page=resultQuery/nbDettesEtRattrapagesEtudiants">Nombre de Dettes et de Rattrapages par etudiants</a>
           </div>
         </div>
         <div id="show" class="col-md-8">
