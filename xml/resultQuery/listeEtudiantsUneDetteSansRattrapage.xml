@@ -6,12 +6,44 @@
 						<annee annee="2015">
 							<note matiere="Expression" note="12"/>
 							<note matiere="Anglais" note="15"/>
-							<note matiere="Info Mat" note="11"/>
+							<note matiere="Informatique Materielle" note="11"/>
 						</annee>
 						<annee annee="2014">
-							<note matiere="Periph" note="12"/>
-							<note matiere="COOPOO" note="17"/>
-							<note matiere="Info Mat" note="8"/>
+							<note matiere="Maths" note="12"/>
+							<note matiere="Ondes" note="17"/>
+							<note matiere="Chimie" note="8"/>
+						</annee>
+					</notes>
+				</etudiant><etudiant>
+					<nom>RABIOT</nom>
+					<prenom>Daniel</prenom>
+					<dateNaissance jour="24" mois="avr" annee="1993"/>
+					<notes>
+						<annee annee="2015">
+							<note matiere="Expression" note="12"/>
+							<note matiere="Anglais" note="15"/>
+							<note matiere="Informatique Materielle" note="11"/>
+						</annee>
+						<annee annee="2014">
+							<note matiere="Maths" note="12"/>
+							<note matiere="Ondes" note="17"/>
+							<note matiere="Chimie" note="8"/>
+						</annee>
+					</notes>
+				</etudiant><etudiant>
+					<nom>RABIOT</nom>
+					<prenom>Daniel</prenom>
+					<dateNaissance jour="24" mois="avr" annee="1993"/>
+					<notes>
+						<annee annee="2015">
+							<note matiere="Expression" note="12"/>
+							<note matiere="Anglais" note="15"/>
+							<note matiere="Informatique Materielle" note="11"/>
+						</annee>
+						<annee annee="2014">
+							<note matiere="Maths" note="12"/>
+							<note matiere="Ondes" note="17"/>
+							<note matiere="Chimie" note="8"/>
 						</annee>
 					</notes>
 				</etudiant></etudiants>

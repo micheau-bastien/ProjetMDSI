@@ -1,13 +1,14 @@
 <enseignants>
     <enseignant>
-        <nom>COUOCU</nom>
-        <prenom>Rest</prenom>
-        <dateNaissance jour="15" mois="mar" annee="1994"/>
+        <nom>POISSARD</nom>
+        <prenom>Jean-Michel</prenom>
+        <dateNaissance jour="15" mois="mar" annee="1957"/>
         <grade>prof</grade>
         <matieres>
             <matiere>Expression</matiere>
             <matiere>MDSI</matiere>
             <matiere>Petanque</matiere>
+            <matiere>Informatique Materielle</matiere>
         </matieres>
         <groupesEnseigne>
             <groupe annee="4A" cursus="IR-I" groupe="B"/>
@@ -15,22 +16,23 @@
         </groupesEnseigne>
     </enseignant>
     <enseignant>
-        <nom>PAPAILHAU</nom>
+        <nom>MOLINARD</nom>
         <prenom>Arthur</prenom>
-        <dateNaissance jour="15" mois="mar" annee="1994"/>
+        <dateNaissance jour="15" mois="mar" annee="1959"/>
         <grade>prof</grade>
         <matieres>
             <matiere>Expression</matiere>
             <matiere>Finance</matiere>
+            <matiere>Gestion</matiere>
             <matiere>Anglais</matiere>
             <matiere>Petanque</matiere>
             <matiere>POO</matiere>
         </matieres>
         <groupesEnseigne>
             <groupe annee="1A" cursus="STPI1" groupe="B"/>
-            <groupe annee="1A" cursus="STPI1" groupe="I"/>
-            <groupe annee="1A" cursus="STPI1" groupe="K"/>
-            <groupe annee="4A" cursus="GMM" groupe="A"/>
+            <groupe annee="1A" cursus="STPI1" groupe="A"/>
+            <groupe annee="2A" cursus="MIC" groupe="A"/>
+            <groupe annee="4A" cursus="IR-I" groupe="A"/>
         </groupesEnseigne>
     </enseignant>
     <enseignant>
@@ -71,10 +73,11 @@
     <enseignant>
         <nom>DELORME</nom>
         <prenom>Gautier</prenom>
-        <dateNaissance jour="1" mois="jan" annee="1994"/>
+        <dateNaissance jour="1" mois="jan" annee="1978"/>
         <grade>prof</grade>
         <matieres>
             <matiere>Petanque</matiere>
+            <matiere>Base de Données</matiere>
             <matiere>MDSI</matiere>
             <matiere>Informatique Materielle</matiere>
         </matieres>
@@ -86,48 +89,68 @@
         </groupesEnseigne>
     </enseignant>
     <enseignant>
-        <nom>NOEL</nom>
+        <nom>LOCOU</nom>
         <prenom>Pierre</prenom>
-        <dateNaissance jour="18" mois="mar" annee="1994"/>
+        <dateNaissance jour="18" mois="mar" annee="1960"/>
         <grade>prof</grade>
         <matieres>
-            <matiere>Reseaux</matiere>
+            <matiere>Ondes</matiere>
             <matiere>Thermodynamique</matiere>
-            <matiere>Petanque</matiere>
+            <matiere>Chimie</matiere>
         </matieres>
         <groupesEnseigne>
             <groupe annee="1A" cursus="STPI1" groupe="B"/>
-            <groupe annee="2A" cursus="ICBE" groupe="I"/>
-            <groupe annee="3A" cursus="GM" groupe="K"/>
-            <groupe annee="4A" cursus="GMM" groupe="A"/>
+            <groupe annee="2A" cursus="MIC" groupe="A"/>
+            <groupe annee="3A" cursus="MIC" groupe="B"/>
+            <groupe annee="3A" cursus="MIC" groupe="A"/>
         </groupesEnseigne>
     </enseignant>
     <enseignant>
         <nom>BABAOGLU</nom>
         <prenom>Ozalp</prenom>
-        <dateNaissance jour="16" mois="mar" annee="1994"/>
+        <dateNaissance jour="16" mois="mar" annee="1956"/>
         <grade>prof</grade>
         <matieres>
-            <matiere>Expression</matiere>
+            <matiere>MDSI</matiere>
+            <matiere>Algo</matiere>
+            <matiere>COOPOO</matiere>
+        </matieres>
+        <groupesEnseigne>
+            <groupe annee="2A" cursus="MIC" groupe="B"/>
+            <groupe annee="4A" cursus="IR-I" groupe="A"/>
+        </groupesEnseigne>
+    </enseignant>
+    <enseignant>
+        <nom>CHOISOT</nom>
+        <prenom>Gilles</prenom>
+        <dateNaissance jour="15" mois="mar" annee="1963"/>
+        <grade>prof</grade>
+        <matieres>
+            <matiere>Maths</matiere>
             <matiere>MDSI</matiere>
         </matieres>
         <groupesEnseigne>
             <groupe annee="2A" cursus="IR-I" groupe="B"/>
-            <groupe annee="4A" cursus="GMM" groupe="A"/>
+            <groupe annee="5A" cursus="IL" groupe="A"/>
+            <groupe annee="5A" cursus="IL" groupe="B"/>
         </groupesEnseigne>
     </enseignant>
     <enseignant>
-        <nom>ZAZACU</nom>
-        <prenom>Poi</prenom>
-        <dateNaissance jour="15" mois="mar" annee="1994"/>
+        <nom>JOYAUX</nom>
+        <prenom>Pauline</prenom>
+        <dateNaissance jour="15" mois="mar" annee="1959"/>
         <grade>prof</grade>
         <matieres>
             <matiere>MDSI</matiere>
-            <matiere>Petanque</matiere>
+            <matiere>COOPOO</matiere>
+            <matiere>Algo</matiere>
+            <matiere>Informatique Materielle</matiere>
         </matieres>
         <groupesEnseigne>
             <groupe annee="4A" cursus="IR-I" groupe="B"/>
             <groupe annee="4A" cursus="IR-RT" groupe="B"/>
+            <groupe annee="5A" cursus="SEC" groupe="A"/>
+            <groupe annee="5A" cursus="SEC" groupe="B"/>
         </groupesEnseigne>
     </enseignant>
 </enseignants>

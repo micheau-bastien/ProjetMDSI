@@ -12,8 +12,34 @@
 						</annee>
 					</notes>
 				</etudiant><etudiant>
-					<nom>DANSE</nom>
-					<prenom>Yui</prenom>
+					<nom>DUPONT</nom>
+					<prenom>Joan</prenom>
+					<dateNaissance jour="15" mois="mar" annee="1994"/>
+					<notes>
+						<annee annee="2015">
+							<note matiere="Expression" note="12"/>
+						</annee>
+						<annee annee="2014">
+							<note matiere="Maths" note="9"/>
+							<note matiere="Ondes" note="3"/>
+						</annee>
+					</notes>
+				</etudiant><etudiant>
+					<nom>DUPONT</nom>
+					<prenom>Joan</prenom>
+					<dateNaissance jour="15" mois="mar" annee="1994"/>
+					<notes>
+						<annee annee="2015">
+							<note matiere="Expression" note="12"/>
+						</annee>
+						<annee annee="2014">
+							<note matiere="Maths" note="9"/>
+							<note matiere="Base de Données" note="3"/>
+						</annee>
+					</notes>
+				</etudiant><etudiant>
+					<nom>MOLIENNE</nom>
+					<prenom>Lucas</prenom>
 					<dateNaissance jour="15" mois="mar" annee="1994"/>
 					<notes>
 						<annee annee="2015">
@@ -25,12 +51,12 @@
 						</annee>
 					</notes>
 				</etudiant><etudiant>
-					<nom>POI</nom>
-					<prenom>Ooiu</prenom>
+					<nom>BULOT</nom>
+					<prenom>Fabienne</prenom>
 					<dateNaissance jour="15" mois="mar" annee="1994"/>
 					<notes>
 						<annee annee="2015">
-							<note matiere="Expression" note="18"/>
+							<note matiere="Expression" note="12"/>
 						</annee>
 						<annee annee="2014">
 							<note matiere="Compta" note="2"/>
@@ -38,8 +64,21 @@
 						</annee>
 					</notes>
 				</etudiant><etudiant>
-					<nom>RF</nom>
-					<prenom>Fvg</prenom>
+					<nom>MOLIENNE</nom>
+					<prenom>Lucas</prenom>
+					<dateNaissance jour="15" mois="mar" annee="1994"/>
+					<notes>
+						<annee annee="2015">
+							<note matiere="Expression" note="12"/>
+						</annee>
+						<annee annee="2014">
+							<note matiere="Compta" note="2"/>
+							<note matiere="Maths" note="4"/>
+						</annee>
+					</notes>
+				</etudiant><etudiant>
+					<nom>BULOT</nom>
+					<prenom>Fabienne</prenom>
 					<dateNaissance jour="15" mois="mar" annee="1994"/>
 					<notes>
 						<annee annee="2015">

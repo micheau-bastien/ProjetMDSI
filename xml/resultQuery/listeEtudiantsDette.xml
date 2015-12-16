@@ -34,17 +34,169 @@
 						<annee annee="2015">
 							<note matiere="Expression" note="12"/>
 							<note matiere="Anglais" note="15"/>
-							<note matiere="Info Mat" note="11"/>
+							<note matiere="Informatique Materielle" note="11"/>
 						</annee>
 						<annee annee="2014">
-							<note matiere="Periph" note="12"/>
-							<note matiere="COOPOO" note="17"/>
-							<note matiere="Info Mat" note="8"/>
+							<note matiere="Maths" note="12"/>
+							<note matiere="Ondes" note="17"/>
+							<note matiere="Chimie" note="8"/>
 						</annee>
 					</notes>
 				</etudiant><etudiant>
-					<nom>DANSE</nom>
-					<prenom>Yui</prenom>
+					<nom>DUPONT</nom>
+					<prenom>Joan</prenom>
+					<dateNaissance jour="15" mois="mar" annee="1994"/>
+					<notes>
+						<annee annee="2015">
+							<note matiere="Expression" note="12"/>
+						</annee>
+						<annee annee="2014">
+							<note matiere="Maths" note="9"/>
+							<note matiere="Ondes" note="3"/>
+						</annee>
+					</notes>
+				</etudiant><etudiant>
+					<nom>MAROT</nom>
+					<prenom>Laure</prenom>
+					<dateNaissance jour="23" mois="mar" annee="1994"/>
+					<notes>
+						<annee annee="2015">
+							<note matiere="Expression" note="13"/>
+							<note matiere="Maths" note="12"/>
+						</annee>
+						<annee annee="2014">
+							<note matiere="Maths" note="6.5"/>
+							<note matiere="Ondes" note="8"/>
+							<note matiere="Thermo" note="7"/>
+						</annee>
+					</notes>
+				</etudiant><etudiant>
+					<nom>RABIOT</nom>
+					<prenom>Daniel</prenom>
+					<dateNaissance jour="24" mois="avr" annee="1993"/>
+					<notes>
+						<annee annee="2015">
+							<note matiere="Expression" note="12"/>
+							<note matiere="Anglais" note="15"/>
+							<note matiere="Informatique Materielle" note="11"/>
+						</annee>
+						<annee annee="2014">
+							<note matiere="Maths" note="12"/>
+							<note matiere="Ondes" note="17"/>
+							<note matiere="Chimie" note="8"/>
+						</annee>
+					</notes>
+				</etudiant><etudiant>
+					<nom>DANSEIL</nom>
+					<prenom>Guillaume</prenom>
+					<dateNaissance jour="15" mois="sep" annee="1994"/>
+					<notes>
+						<annee annee="2015">
+							<note matiere="Thermo" note="3"/>
+							<note matiere="Anglais" note="8"/>
+							<note matiere="Maths" note="4"/>
+						</annee>
+						<annee annee="2014">
+							<note matiere="Expression" note="10"/>
+							<note matiere="Maths" note="8"/>
+							<note matiere="Algo" note="6"/>
+						</annee>
+					</notes>
+				</etudiant><etudiant>
+					<nom>VIEUX</nom>
+					<prenom>Jean</prenom>
+					<dateNaissance jour="18" mois="avr" annee="1991"/>
+					<notes>
+						<annee annee="2015">
+							<note matiere="Thermo" note="11"/>
+							<note matiere="Chimie" note="8"/>
+							<note matiere="Maths" note="10"/>
+						</annee>
+						<annee annee="2014">
+							<note matiere="Base de Données" note="14"/>
+							<note matiere="Maths" note="8"/>
+							<note matiere="Algo" note="12"/>
+						</annee>
+					</notes>
+				</etudiant><etudiant>
+					<nom>DUPONT</nom>
+					<prenom>Joan</prenom>
+					<dateNaissance jour="15" mois="mar" annee="1994"/>
+					<notes>
+						<annee annee="2015">
+							<note matiere="Expression" note="12"/>
+						</annee>
+						<annee annee="2014">
+							<note matiere="Maths" note="9"/>
+							<note matiere="Base de Données" note="3"/>
+						</annee>
+					</notes>
+				</etudiant><etudiant>
+					<nom>MAROT</nom>
+					<prenom>Laure</prenom>
+					<dateNaissance jour="23" mois="mar" annee="1994"/>
+					<notes>
+						<annee annee="2015">
+							<note matiere="Expression" note="13"/>
+							<note matiere="Maths" note="12"/>
+						</annee>
+						<annee annee="2014">
+							<note matiere="Maths" note="6.5"/>
+							<note matiere="Informatique Materielle" note="8"/>
+							<note matiere="Thermo" note="7"/>
+						</annee>
+					</notes>
+				</etudiant><etudiant>
+					<nom>RABIOT</nom>
+					<prenom>Daniel</prenom>
+					<dateNaissance jour="24" mois="avr" annee="1993"/>
+					<notes>
+						<annee annee="2015">
+							<note matiere="Expression" note="12"/>
+							<note matiere="Anglais" note="15"/>
+							<note matiere="Informatique Materielle" note="11"/>
+						</annee>
+						<annee annee="2014">
+							<note matiere="Maths" note="12"/>
+							<note matiere="Ondes" note="17"/>
+							<note matiere="Chimie" note="8"/>
+						</annee>
+					</notes>
+				</etudiant><etudiant>
+					<nom>DANSEIL</nom>
+					<prenom>Guillaume</prenom>
+					<dateNaissance jour="15" mois="sep" annee="1994"/>
+					<notes>
+						<annee annee="2015">
+							<note matiere="MDSI" note="3"/>
+							<note matiere="Anglais" note="8"/>
+							<note matiere="Maths" note="4"/>
+						</annee>
+						<annee annee="2014">
+							<note matiere="Expression" note="10"/>
+							<note matiere="Maths" note="8"/>
+							<note matiere="Algo" note="6"/>
+						</annee>
+					</notes>
+				</etudiant><etudiant>
+					<nom>VIEUX</nom>
+					<prenom>Jean</prenom>
+					<dateNaissance jour="18" mois="avr" annee="1991"/>
+					<notes>
+						<annee annee="2015">
+							<note matiere="MDSI" note="11"/>
+							<note matiere="COOPOO" note="8"/>
+							<note matiere="Maths" note="10"/>
+						</annee>
+						<annee annee="2014">
+							<note matiere="Informatique Materielle" note="14"/>
+							<note matiere="Maths" note="8"/>
+							<note matiere="Algo" note="12"/>
+						</annee>
+					</notes>
+				</etudiant><etudiant>
+					<nom>MOLIENNE</nom>
+					<prenom>Lucas</prenom>
 					<dateNaissance jour="15" mois="mar" annee="1994"/>
 					<notes>
 						<annee annee="2015">
@@ -56,12 +208,14 @@
 						</annee>
 					</notes>
 				</etudiant><etudiant>
-					<nom>POI</nom>
-					<prenom>Ooiu</prenom>
+					<nom>POISSON</nom>
+					<prenom>Augustin</prenom>
 					<dateNaissance jour="15" mois="mar" annee="1994"/>
 					<notes>
 						<annee annee="2015">
 							<note matiere="Expression" note="18"/>
+							<note matiere="Informatique Materielle" note="4"/>
+							<note matiere="Gestion" note="8"/>
 						</annee>
 						<annee annee="2014">
 							<note matiere="Compta" note="2"/>
@@ -69,12 +223,14 @@
 						</annee>
 					</notes>
 				</etudiant><etudiant>
-					<nom>TYUJ</nom>
-					<prenom>Hju</prenom>
+					<nom>FAURE</nom>
+					<prenom>Jacques</prenom>
 					<dateNaissance jour="15" mois="mar" annee="1994"/>
 					<notes>
 						<annee annee="2015">
 							<note matiere="Expression" note="8"/>
+							<note matiere="Informatique Materielle" note="12"/>
+							<note matiere="Anglais" note="2"/>
 						</annee>
 						<annee annee="2014">
 							<note matiere="Compta" note="2"/>
@@ -82,8 +238,64 @@
 						</annee>
 					</notes>
 				</etudiant><etudiant>
-					<nom>RF</nom>
-					<prenom>Fvg</prenom>
+					<nom>BULOT</nom>
+					<prenom>Fabienne</prenom>
+					<dateNaissance jour="15" mois="mar" annee="1994"/>
+					<notes>
+						<annee annee="2015">
+							<note matiere="Expression" note="12"/>
+						</annee>
+						<annee annee="2014">
+							<note matiere="Compta" note="2"/>
+							<note matiere="Maths" note="4"/>
+						</annee>
+					</notes>
+				</etudiant><etudiant>
+					<nom>MOLIENNE</nom>
+					<prenom>Lucas</prenom>
+					<dateNaissance jour="15" mois="mar" annee="1994"/>
+					<notes>
+						<annee annee="2015">
+							<note matiere="Expression" note="12"/>
+						</annee>
+						<annee annee="2014">
+							<note matiere="Compta" note="2"/>
+							<note matiere="Maths" note="4"/>
+						</annee>
+					</notes>
+				</etudiant><etudiant>
+					<nom>POISSON</nom>
+					<prenom>Augustin</prenom>
+					<dateNaissance jour="15" mois="mar" annee="1994"/>
+					<notes>
+						<annee annee="2015">
+							<note matiere="Expression" note="18"/>
+							<note matiere="Informatique Materielle" note="4"/>
+							<note matiere="Gestion" note="8"/>
+						</annee>
+						<annee annee="2014">
+							<note matiere="Compta" note="2"/>
+							<note matiere="Maths" note="4"/>
+						</annee>
+					</notes>
+				</etudiant><etudiant>
+					<nom>FAURE</nom>
+					<prenom>Jacques</prenom>
+					<dateNaissance jour="15" mois="mar" annee="1994"/>
+					<notes>
+						<annee annee="2015">
+							<note matiere="Expression" note="8"/>
+							<note matiere="Informatique Materielle" note="12"/>
+							<note matiere="Anglais" note="2"/>
+						</annee>
+						<annee annee="2014">
+							<note matiere="Compta" note="2"/>
+							<note matiere="Maths" note="4"/>
+						</annee>
+					</notes>
+				</etudiant><etudiant>
+					<nom>BULOT</nom>
+					<prenom>Fabienne</prenom>
 					<dateNaissance jour="15" mois="mar" annee="1994"/>
 					<notes>
 						<annee annee="2015">
