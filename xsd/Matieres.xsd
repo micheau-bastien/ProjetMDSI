@@ -8,8 +8,8 @@
 		<xsd:sequence>
 			<xsd:element name="matiere" type="typeMatiere" minOccurs="0" maxOccurs="unbounded">
 				<xsd:unique name="nomUnique">
-					<xsd:selector xpath="nom"/>
-					<xsd:field xpath="@value"/>
+					<xsd:selector xpath="."/>
+					<xsd:field xpath="nom"/>
 				</xsd:unique>
 			</xsd:element>
 		</xsd:sequence>
