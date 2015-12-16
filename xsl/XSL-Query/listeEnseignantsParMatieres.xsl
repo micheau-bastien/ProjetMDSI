@@ -6,25 +6,23 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <xsl:template match="/">
   <html>
     <h1>Liste des enseignants par matieres</h1>
-    <ul>
+    <div class="list-group">
         <xsl:apply-templates select="//matieres"/>
-    </ul>
+    </div>
   </html>
   </xsl:template>
 
   <xsl:template match="//matieres">
-    <ul>
       <xsl:for-each select="descendant::matiereEnseignee">
-        <li>
-          <xsl:value-of select="./matiere"/>
-          <ul>
+        <a href="#" class="list-group-item">
+          <h4><xsl:value-of select="./matiere"/></h4>
+          <p style="margin-left:25px;">
             <xsl:for-each select="descendant::enseignant">
-              <ul><xsl:value-of select="."/></ul>
-          </xsl:for-each>
-          </ul>
-        </li>
+                <xsl:value-of select="."/><br/>
+            </xsl:for-each>
+          </p>
+        </a>
       </xsl:for-each>
-  </ul>
   </xsl:template>
 
 </xsl:stylesheet>
