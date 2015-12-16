@@ -3,9 +3,15 @@
 <xsd:include schemaLocation="cursusType.xsd"/>
 
 	<xsd:element name="matieres" type="typeMatieres"/>
+
 	<xsd:complexType name="typeMatieres">
 		<xsd:sequence>
-			<xsd:element name="matiere" type="typeMatiere" minOccurs="0" maxOccurs="unbounded" />
+			<xsd:element name="matiere" type="typeMatiere" minOccurs="0" maxOccurs="unbounded">
+				<xsd:unique name="nomUnique">
+					<xsd:selector xpath="nom"/>
+					<xsd:field xpath="@value"/>
+				</xsd:unique>
+			</xsd:element>
 		</xsd:sequence>
 	</xsd:complexType>
 
