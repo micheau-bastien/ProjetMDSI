@@ -28,8 +28,8 @@
 			</infoCursus>
 		</cursuses>
 	</matiere>
-	<matiere  code="ANG8SDE">
-		<nom>Anglais</nom>
+	<matiere  code="POO8SDE">
+		<nom>POO</nom>
 		<cursuses>
 			<infoCursus>
 				<annee>2A</annee>

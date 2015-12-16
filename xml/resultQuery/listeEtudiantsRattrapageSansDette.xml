@@ -1,1 +1,17 @@
-<etudiants
+<etudiants><etudiant>
+					<nom>GRATTER</nom>
+					<prenom>Pierre</prenom>
+					<dateNaissance jour="8" mois="jun" annee="1994"/>
+					<notes>
+						<annee annee="2015">
+							<note matiere="MDSI" note="12"/>
+							<note matiere="COOPOO" note="8"/>
+							<note matiere="Maths" note="10"/>
+						</annee>
+						<annee annee="2014">
+							<note matiere="Expression" note="14"/>
+							<note matiere="Maths" note="13"/>
+							<note matiere="Algo" note="16"/>
+						</annee>
+					</notes>
+				</etudiant></etudiants>

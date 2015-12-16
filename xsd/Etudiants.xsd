@@ -74,7 +74,7 @@
 
 		<xsd:complexType name="typeNote">
           <xsd:attribute name="matiere" type="xsd:string" use="required" />
-          <xsd:attribute name="note" type="xsd:integer" use="required" />
+          <xsd:attribute name="note" type="xsd:float" use="required" />
      	</xsd:complexType>
 
 </xsd:schema>
