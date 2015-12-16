@@ -1,6 +1,6 @@
 <etudiants><etudiant>
-					<nom>DUPONT</nom>
-					<prenom>Joan</prenom>
+					<nom>DEHAL</nom>
+					<prenom>George</prenom>
 					<dateNaissance jour="15" mois="mar" annee="1994"/>
 					<notes>
 						<annee annee="2015">
@@ -13,7 +13,7 @@
 					</notes>
 				</etudiant><etudiant>
 					<nom>MAROT</nom>
-					<prenom>Laure</prenom>
+					<prenom>Marc</prenom>
 					<dateNaissance jour="23" mois="mar" annee="1994"/>
 					<notes>
 						<annee annee="2015">
@@ -40,8 +40,8 @@
 						</annee>
 					</notes>
 				</etudiant><etudiant>
-					<nom>MAROT</nom>
-					<prenom>Laure</prenom>
+					<nom>NOTRON</nom>
+					<prenom>Philippe</prenom>
 					<dateNaissance jour="23" mois="mar" annee="1994"/>
 					<notes>
 						<annee annee="2015">
@@ -55,24 +55,24 @@
 						</annee>
 					</notes>
 				</etudiant><etudiant>
-					<nom>DANSEIL</nom>
-					<prenom>Guillaume</prenom>
-					<dateNaissance jour="15" mois="sep" annee="1994"/>
+					<nom>GRANDU</nom>
+					<prenom>Maeva</prenom>
+					<dateNaissance jour="4" mois="aou" annee="1994"/>
 					<notes>
 						<annee annee="2015">
-							<note matiere="Thermo" note="3"/>
+							<note matiere="Ondes" note="2"/>
 							<note matiere="Anglais" note="8"/>
-							<note matiere="Maths" note="4"/>
+							<note matiere="Maths" note="10"/>
 						</annee>
 						<annee annee="2014">
-							<note matiere="Expression" note="10"/>
-							<note matiere="Maths" note="8"/>
+							<note matiere="Expression" note="14"/>
+							<note matiere="Maths" note="3"/>
 							<note matiere="Algo" note="6"/>
 						</annee>
 					</notes>
 				</etudiant><etudiant>
-					<nom>DUPONT</nom>
-					<prenom>Joan</prenom>
+					<nom>PROUST</nom>
+					<prenom>Marcel</prenom>
 					<dateNaissance jour="15" mois="mar" annee="1994"/>
 					<notes>
 						<annee annee="2015">
@@ -80,7 +80,7 @@
 						</annee>
 						<annee annee="2014">
 							<note matiere="Maths" note="9"/>
-							<note matiere="Base de Données" note="3"/>
+							<note matiere="Base de Donnees" note="3"/>
 						</annee>
 					</notes>
 				</etudiant><etudiant>
@@ -128,8 +128,8 @@
 						</annee>
 					</notes>
 				</etudiant><etudiant>
-					<nom>POISSON</nom>
-					<prenom>Augustin</prenom>
+					<nom>POISINI</nom>
+					<prenom>Franck</prenom>
 					<dateNaissance jour="15" mois="mar" annee="1994"/>
 					<notes>
 						<annee annee="2015">
@@ -143,8 +143,8 @@
 						</annee>
 					</notes>
 				</etudiant><etudiant>
-					<nom>FAURE</nom>
-					<prenom>Jacques</prenom>
+					<nom>VABRES</nom>
+					<prenom>Robert</prenom>
 					<dateNaissance jour="15" mois="mar" annee="1994"/>
 					<notes>
 						<annee annee="2015">
@@ -158,8 +158,8 @@
 						</annee>
 					</notes>
 				</etudiant><etudiant>
-					<nom>BULOT</nom>
-					<prenom>Fabienne</prenom>
+					<nom>CHUVAUT</nom>
+					<prenom>Laurianne</prenom>
 					<dateNaissance jour="15" mois="mar" annee="1994"/>
 					<notes>
 						<annee annee="2015">

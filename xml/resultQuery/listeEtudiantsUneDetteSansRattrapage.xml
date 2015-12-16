@@ -1,6 +1,6 @@
 <etudiants><etudiant>
-					<nom>RABIOT</nom>
-					<prenom>Daniel</prenom>
+					<nom>RABI</nom>
+					<prenom>Jean</prenom>
 					<dateNaissance jour="24" mois="avr" annee="1993"/>
 					<notes>
 						<annee annee="2015">
@@ -31,8 +31,8 @@
 						</annee>
 					</notes>
 				</etudiant><etudiant>
-					<nom>RABIOT</nom>
-					<prenom>Daniel</prenom>
+					<nom>RABIOTTI</nom>
+					<prenom>Daniella</prenom>
 					<dateNaissance jour="24" mois="avr" annee="1993"/>
 					<notes>
 						<annee annee="2015">

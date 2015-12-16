@@ -32,7 +32,13 @@
 
 		<xsd:complexType name="typeCursusGlobal">
 			<xsd:sequence>
-            	<xsd:element name="groupe" type="typeGroupe" minOccurs="1" maxOccurs="unbounded"  />
+            	<xsd:element name="groupe" type="typeGroupe" minOccurs="1" maxOccurs="unbounded" >
+							<xsd:unique name="nomEtudUnique">
+								<xsd:selector xpath="etudiant"/>
+								<xsd:field xpath="nom"/>
+								<xsd:field xpath="prenom"/>
+							</xsd:unique>
+						</xsd:element>
 			</xsd:sequence>
 			<xsd:attribute name="value" type="typeCursus" use="required" />
 		</xsd:complexType>

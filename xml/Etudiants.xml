@@ -3,8 +3,8 @@
 		<cursus value="STPI1">
 			<groupe value="A">
 				<etudiant>
-					<nom>DUPONT</nom>
-					<prenom>Joan</prenom>
+					<nom>DEHAL</nom>
+					<prenom>George</prenom>
 					<dateNaissance jour="15" mois="mar" annee="1994" />
 					<notes>
 						<annee annee="2015">
@@ -18,7 +18,7 @@
 				</etudiant>
 				<etudiant>
 					<nom>MAROT</nom>
-					<prenom>Laure</prenom>
+					<prenom>Marc</prenom>
 					<dateNaissance jour="23" mois="mar" annee="1994" />
 					<notes>
 						<annee annee="2015">
@@ -48,8 +48,8 @@
 					</notes>
 				</etudiant>
 				<etudiant>
-					<nom>RABIOT</nom>
-					<prenom>Daniel</prenom>
+					<nom>RABI</nom>
+					<prenom>Jean</prenom>
 					<dateNaissance jour="24" mois="avr" annee="1993" />
 					<notes>
 						<annee annee="2015">
@@ -67,8 +67,8 @@
 			</groupe>
 			<groupe value="B">
 				<etudiant>
-					<nom>ZAZAI</nom>
-					<prenom>Henri</prenom>
+					<nom>JALABERTI</nom>
+					<prenom>Claire</prenom>
 					<dateNaissance jour="15" mois="mar" annee="1994" />
 					<notes>
 						<annee annee="2015">
@@ -99,36 +99,36 @@
 					</notes>
 				</etudiant>
 				<etudiant>
-					<nom>DELLAU</nom>
-					<prenom>Paul</prenom>
+					<nom>DELABU</nom>
+					<prenom>Henri</prenom>
 					<dateNaissance jour="15" mois="mar" annee="1994" />
 					<notes>
 						<annee annee="2015">
-							<note matiere="Ondes" note="5" />
-							<note matiere="Anglais" note="8" />
+							<note matiere="Ondes" note="10" />
+							<note matiere="Petanque" note="3" />
 							<note matiere="Maths" note="12" />
 						</annee>
 						<annee annee="2014">
-							<note matiere="Expression" note="14" />
+							<note matiere="Expression" note="4" />
 							<note matiere="Maths" note="11" />
 							<note matiere="Algo" note="14" />
 						</annee>
 					</notes>
 				</etudiant>
 				<etudiant>
-					<nom>NANOUL</nom>
-					<prenom>Paolo</prenom>
+					<nom>JAOUI</nom>
+					<prenom>Agnes</prenom>
 					<dateNaissance jour="2" mois="jan" annee="1994" />
 					<notes>
 						<annee annee="2015">
-							<note matiere="Chimie" note="12" />
-							<note matiere="Thermo" note="8" />
+							<note matiere="Chimie" note="11" />
+							<note matiere="MDSI" note="9" />
 							<note matiere="Maths" note="11" />
 						</annee>
 						<annee annee="2014">
 							<note matiere="Expression" note="14" />
 							<note matiere="Maths" note="15" />
-							<note matiere="Algo" note="16" />
+							<note matiere="Algo" note="6" />
 						</annee>
 					</notes>
 				</etudiant>
@@ -153,8 +153,8 @@
 					</notes>
 				</etudiant>
 				<etudiant>
-					<nom>MAROT</nom>
-					<prenom>Laure</prenom>
+					<nom>NOTRON</nom>
+					<prenom>Philippe</prenom>
 					<dateNaissance jour="23" mois="mar" annee="1994" />
 					<notes>
 						<annee annee="2015">
@@ -169,8 +169,8 @@
 					</notes>
 				</etudiant>
 				<etudiant>
-					<nom>GELLI</nom>
-					<prenom>Margot</prenom>
+					<nom>ANTUTU</nom>
+					<prenom>Jeanne</prenom>
 					<dateNaissance jour="12" mois="fev" annee="1993" />
 					<notes>
 						<annee annee="2015">
@@ -203,8 +203,8 @@
 			</groupe>
 			<groupe value="B">
 				<etudiant>
-					<nom>ZAZAI</nom>
-					<prenom>Henri</prenom>
+					<nom>JALABERTOU</nom>
+					<prenom>Manon</prenom>
 					<dateNaissance jour="15" mois="mar" annee="1994" />
 					<notes>
 						<annee annee="2015">
@@ -218,8 +218,8 @@
 					</notes>
 				</etudiant>
 				<etudiant>
-					<nom>GRATTER</nom>
-					<prenom>Pierre</prenom>
+					<nom>DEVALAU</nom>
+					<prenom>Simon</prenom>
 					<dateNaissance jour="8" mois="jun" annee="1994" />
 					<notes>
 						<annee annee="2015">
@@ -252,8 +252,8 @@
 					</notes>
 				</etudiant>
 				<etudiant>
-					<nom>NANOUL</nom>
-					<prenom>Paolo</prenom>
+					<nom>LABODA</nom>
+					<prenom>Paola</prenom>
 					<dateNaissance jour="2" mois="jan" annee="1994" />
 					<notes>
 						<annee annee="2015">
@@ -273,80 +273,80 @@
 		<cursus value="IMACS">
 			<groupe value="A">
 				<etudiant>
-					<nom>PETIT</nom>
-					<prenom>Maelle</prenom>
+					<nom>GRANDU</nom>
+					<prenom>Maeva</prenom>
 					<dateNaissance jour="4" mois="aou" annee="1994" />
 					<notes>
 						<annee annee="2015">
-							<note matiere="Ondes" note="12" />
+							<note matiere="Ondes" note="2" />
 							<note matiere="Anglais" note="8" />
 							<note matiere="Maths" note="10" />
 						</annee>
 						<annee annee="2014">
 							<note matiere="Expression" note="14" />
-							<note matiere="Maths" note="13" />
-							<note matiere="Algo" note="16" />
-						</annee>
-					</notes>
-				</etudiant>
-				<etudiant>
-					<nom>DANSEIL</nom>
-					<prenom>Guillaume</prenom>
-					<dateNaissance jour="15" mois="sep" annee="1994" />
-					<notes>
-						<annee annee="2015">
-							<note matiere="Thermo" note="3" />
-							<note matiere="Anglais" note="8" />
-							<note matiere="Maths" note="4" />
-						</annee>
-						<annee annee="2014">
-							<note matiere="Expression" note="10" />
-							<note matiere="Maths" note="8" />
+							<note matiere="Maths" note="3" />
 							<note matiere="Algo" note="6" />
 						</annee>
 					</notes>
 				</etudiant>
 				<etudiant>
-					<nom>GUILLOT</nom>
-					<prenom>Sonia</prenom>
-					<dateNaissance jour="6" mois="mar" annee="1992" />
+					<nom>DAUGAREU</nom>
+					<prenom>Nolan</prenom>
+					<dateNaissance jour="15" mois="sep" annee="1994" />
 					<notes>
 						<annee annee="2015">
-							<note matiere="Ondes" note="12" />
+							<note matiere="Thermo" note="13" />
+							<note matiere="Anglais" note="8" />
+							<note matiere="Maths" note="4" />
+						</annee>
+						<annee annee="2014">
+							<note matiere="Expression" note="10" />
+							<note matiere="Maths" note="18" />
+							<note matiere="Algo" note="6" />
+						</annee>
+					</notes>
+				</etudiant>
+				<etudiant>
+					<nom>TRAPU</nom>
+					<prenom>Eva</prenom>
+					<dateNaissance jour="8" mois="mar" annee="1992" />
+					<notes>
+						<annee annee="2015">
+							<note matiere="Ondes" note="1" />
 							<note matiere="Thermo" note="18" />
 							<note matiere="Maths" note="15" />
 						</annee>
 						<annee annee="2014">
 							<note matiere="Expression" note="14" />
-							<note matiere="Maths" note="17" />
+							<note matiere="Maths" note="1" />
 							<note matiere="Algo" note="16" />
 						</annee>
 					</notes>
 				</etudiant>
 				<etudiant>
-					<nom>VIEUX</nom>
-					<prenom>Jean</prenom>
-					<dateNaissance jour="18" mois="avr" annee="1991" />
+					<nom>JEUNIR</nom>
+					<prenom>Marc</prenom>
+					<dateNaissance jour="8" mois="avr" annee="1991" />
 					<notes>
 						<annee annee="2015">
-							<note matiere="Thermo" note="11" />
+							<note matiere="Thermo" note="1" />
 							<note matiere="Chimie" note="8" />
 							<note matiere="Maths" note="10" />
 						</annee>
 						<annee annee="2014">
-							<note matiere="Base de Données" note="14" />
+							<note matiere="Base de Donnees" note="14" />
 							<note matiere="Maths" note="8" />
 							<note matiere="Algo" note="12" />
 						</annee>
 					</notes>
 				</etudiant>
 				<etudiant>
-					<nom>TULLOT</nom>
-					<prenom>Lea</prenom>
-					<dateNaissance jour="15" mois="mar" annee="1994" />
+					<nom>PAQUER</nom>
+					<prenom>Chloee</prenom>
+					<dateNaissance jour="15" mois="fev" annee="1994" />
 					<notes>
 						<annee annee="2015">
-							<note matiere="Base de Données" note="12" />
+							<note matiere="Base de Donnees" note="2" />
 							<note matiere="Thermo" note="8" />
 							<note matiere="Maths" note="10" />
 						</annee>
@@ -360,12 +360,12 @@
 			</groupe>
 			<groupe value="B">
 				<etudiant>
-					<nom>CHIO</nom>
+					<nom>CHIZAO</nom>
 					<prenom>Yui</prenom>
 					<dateNaissance jour="15" mois="mar" annee="1994" />
 					<notes>
 						<annee annee="2015">
-							<note matiere="Thermo" note="15" />
+							<note matiere="Thermodynamique" note="15" />
 							<note matiere="Chimie" note="13" />
 							<note matiere="Maths" note="10" />
 						</annee>
@@ -377,12 +377,12 @@
 					</notes>
 				</etudiant>
 				<etudiant>
-					<nom>MELAIRE</nom>
+					<nom>NOLARE</nom>
 					<prenom>Jeremie</prenom>
 					<dateNaissance jour="9" mois="oct" annee="1994" />
 					<notes>
 						<annee annee="2015">
-							<note matiere="Base de Données" note="12" />
+							<note matiere="Base de Donnees" note="12" />
 							<note matiere="Chimie" note="8" />
 							<note matiere="Maths" note="10" />
 						</annee>
@@ -394,14 +394,14 @@
 					</notes>
 				</etudiant>
 				<etudiant>
-					<nom>HUAN</nom>
+					<nom>HEGRAN</nom>
 					<prenom>Ju</prenom>
 					<dateNaissance jour="15" mois="mar" annee="1994" />
 					<notes>
 						<annee annee="2015">
 							<note matiere="Maths" note="12" />
 							<note matiere="Thermo" note="8" />
-							<note matiere="Base de Données" note="10" />
+							<note matiere="Base de Donnees" note="10" />
 						</annee>
 						<annee annee="2014">
 							<note matiere="Expression" note="14" />
@@ -411,8 +411,8 @@
 					</notes>
 				</etudiant>
 				<etudiant>
-					<nom>GALILE</nom>
-					<prenom>Julie</prenom>
+					<nom>PROSECO</nom>
+					<prenom>Juliette</prenom>
 					<dateNaissance jour="15" mois="mar" annee="1994" />
 					<notes>
 						<annee annee="2015">
@@ -434,8 +434,8 @@
 		<cursus value="MIC">
 			<groupe value="A">
 				<etudiant>
-					<nom>DUPONT</nom>
-					<prenom>Joan</prenom>
+					<nom>PROUST</nom>
+					<prenom>Marcel</prenom>
 					<dateNaissance jour="15" mois="mar" annee="1994" />
 					<notes>
 						<annee annee="2015">
@@ -443,7 +443,7 @@
 						</annee>
 						<annee annee="2014">
 							<note matiere="Maths" note="9" />
-							<note matiere="Base de Données" note="3" />
+							<note matiere="Base de Donnees" note="3" />
 						</annee>
 					</notes>
 				</etudiant>
@@ -464,8 +464,8 @@
 					</notes>
 				</etudiant>
 				<etudiant>
-					<nom>GELLI</nom>
-					<prenom>Margot</prenom>
+					<nom>ROSCHI</nom>
+					<prenom>Francesca</prenom>
 					<dateNaissance jour="12" mois="fev" annee="1993" />
 					<notes>
 						<annee annee="2015">
@@ -479,8 +479,8 @@
 					</notes>
 				</etudiant>
 				<etudiant>
-					<nom>RABIOT</nom>
-					<prenom>Daniel</prenom>
+					<nom>RABIOTTI</nom>
+					<prenom>Daniella</prenom>
 					<dateNaissance jour="24" mois="avr" annee="1993" />
 					<notes>
 						<annee annee="2015">
@@ -513,8 +513,8 @@
 					</notes>
 				</etudiant>
 				<etudiant>
-					<nom>GRATTER</nom>
-					<prenom>Pierre</prenom>
+					<nom>PATRA</nom>
+					<prenom>Arnaud</prenom>
 					<dateNaissance jour="8" mois="jun" annee="1994" />
 					<notes>
 						<annee annee="2015">
@@ -530,18 +530,18 @@
 					</notes>
 				</etudiant>
 				<etudiant>
-					<nom>DELLAU</nom>
-					<prenom>Paul</prenom>
+					<nom>ARCHUN</nom>
+					<prenom>Trey</prenom>
 					<dateNaissance jour="15" mois="mar" annee="1994" />
 					<notes>
 						<annee annee="2015">
-							<note matiere="Ondes" note="5" />
+							<note matiere="Ondes" note="15" />
 							<note matiere="Anglais" note="8" />
-							<note matiere="Maths" note="12" />
+							<note matiere="Maths" note="2" />
 						</annee>
 						<annee annee="2014">
 							<note matiere="Expression" note="14" />
-							<note matiere="Maths" note="11" />
+							<note matiere="Maths" note="1" />
 							<note matiere="Algo" note="14" />
 						</annee>
 					</notes>
@@ -941,8 +941,8 @@
 					</notes>
 				</etudiant>
 				<etudiant>
-					<nom>POISSON</nom>
-					<prenom>Augustin</prenom>
+					<nom>POISINI</nom>
+					<prenom>Franck</prenom>
 					<dateNaissance jour="15" mois="mar" annee="1994" />
 					<notes>
 						<annee annee="2015">
@@ -957,8 +957,8 @@
 					</notes>
 				</etudiant>
 				<etudiant>
-					<nom>FAURE</nom>
-					<prenom>Jacques</prenom>
+					<nom>VABRES</nom>
+					<prenom>Robert</prenom>
 					<dateNaissance jour="15" mois="mar" annee="1994" />
 					<notes>
 						<annee annee="2015">
@@ -973,8 +973,8 @@
 					</notes>
 				</etudiant>
 				<etudiant>
-					<nom>BULOT</nom>
-					<prenom>Fabienne</prenom>
+					<nom>CHUVAUT</nom>
+					<prenom>Laurianne</prenom>
 					<dateNaissance jour="15" mois="mar" annee="1994" />
 					<notes>
 						<annee annee="2015">
@@ -1189,7 +1189,7 @@
 					</notes>
 				</etudiant>
 			</groupe>
-			<groupe value="B">
+			<groupe value="A">
 				<etudiant>
 					<nom>MOLIENNE</nom>
 					<prenom>Lucas</prenom>
@@ -1236,7 +1236,6 @@
 						</annee>
 					</notes>
 				</etudiant>
-,hgvkhv,bv
 				<etudiant>
 					<nom>BULOT</nom>
 					<prenom>Fabienne</prenom>

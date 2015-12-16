@@ -55,4 +55,66 @@
 			</infoCursus>
 		</cursuses>
 	</matiere>
+	<matiere  code="CPO8SDE">
+		<nom>COOPOO</nom>
+		<cursuses>
+			<infoCursus>
+				<annee>1A</annee>
+				<cursus>STPI1</cursus>
+			</infoCursus>
+		</cursuses>
+	</matiere>
+	<matiere  code="MAT8SDE">
+		<nom>Maths</nom>
+		<cursuses>
+			<infoCursus>
+				<annee>1A</annee>
+				<cursus>STPI1</cursus>
+			</infoCursus>
+			<infoCursus>
+				<annee>2A</annee>
+				<cursus>MIC</cursus>
+			</infoCursus>
+			<infoCursus>
+				<annee>2A</annee>
+				<cursus>IMACS</cursus>
+			</infoCursus>
+		</cursuses>
+	</matiere>
+	<matiere  code="BDD8SDE">
+		<nom>Base de Donnees</nom>
+		<cursuses>
+			<infoCursus>
+				<annee>2A</annee>
+				<cursus>MIC</cursus>
+			</infoCursus>
+		</cursuses>
+	</matiere>
+	<matiere  code="ALG8SDE">
+		<nom>Algo</nom>
+		<cursuses>
+			<infoCursus>
+				<annee>1A</annee>
+				<cursus>STPI1</cursus>
+			</infoCursus>
+		</cursuses>
+	</matiere>
+	<matiere  code="THE8SDE">
+		<nom>Thermodynamique</nom>
+		<cursuses>
+			<infoCursus>
+				<annee>1A</annee>
+				<cursus>STPI1</cursus>
+			</infoCursus>
+		</cursuses>
+	</matiere>
+	<matiere  code="CHI8SDE">
+		<nom>Chimie</nom>
+		<cursuses>
+			<infoCursus>
+				<annee>1A</annee>
+				<cursus>STPI1</cursus>
+			</infoCursus>
+		</cursuses>
+	</matiere>
 </matieres>

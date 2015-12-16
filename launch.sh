@@ -48,5 +48,3 @@ xsltproc -output  resultQuery/matiereParCursus.html xsl/XSL-Query/matiereParCurs
 
 xqilla query/nbDettesEtRattrapagesEtudiants -o xml/resultQuery/nbDettesEtRattrapagesEtudiants.xml;
 xsltproc -output  resultQuery/nbDettesEtRattrapagesEtudiants.html xsl/XSL-Query/nbDettesEtRattrapagesEtudiants.xsl xml/resultQuery/nbDettesEtRattrapagesEtudiants.xml;
-
-xmllint --noout --schema xsd/Etudiants.xsd xml/Etudiants.xml;

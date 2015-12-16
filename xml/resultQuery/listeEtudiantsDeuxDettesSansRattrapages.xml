@@ -1,6 +1,6 @@
 <etudiants><etudiant>
-					<nom>DUPONT</nom>
-					<prenom>Joan</prenom>
+					<nom>DEHAL</nom>
+					<prenom>George</prenom>
 					<dateNaissance jour="15" mois="mar" annee="1994"/>
 					<notes>
 						<annee annee="2015">
@@ -25,8 +25,8 @@
 						</annee>
 					</notes>
 				</etudiant><etudiant>
-					<nom>DUPONT</nom>
-					<prenom>Joan</prenom>
+					<nom>PROUST</nom>
+					<prenom>Marcel</prenom>
 					<dateNaissance jour="15" mois="mar" annee="1994"/>
 					<notes>
 						<annee annee="2015">
@@ -34,7 +34,7 @@
 						</annee>
 						<annee annee="2014">
 							<note matiere="Maths" note="9"/>
-							<note matiere="Base de Données" note="3"/>
+							<note matiere="Base de Donnees" note="3"/>
 						</annee>
 					</notes>
 				</etudiant><etudiant>
@@ -51,8 +51,8 @@
 						</annee>
 					</notes>
 				</etudiant><etudiant>
-					<nom>BULOT</nom>
-					<prenom>Fabienne</prenom>
+					<nom>CHUVAUT</nom>
+					<prenom>Laurianne</prenom>
 					<dateNaissance jour="15" mois="mar" annee="1994"/>
 					<notes>
 						<annee annee="2015">
