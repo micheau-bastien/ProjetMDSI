@@ -6,7 +6,11 @@
 		<cursuses>
 			<infoCursus>
 				<annee>1A</annee>
-				<cursus>STPI1</cursus>
+				<cursus>STPI</cursus>
+			</infoCursus>
+			<infoCursus>
+				<annee>4A</annee>
+				<cursus>IR-I</cursus>
 			</infoCursus>
 		</cursuses>
 	</matiere>
@@ -15,7 +19,11 @@
 		<cursuses>
 			<infoCursus>
 				<annee>2A</annee>
-				<cursus>STPI2</cursus>
+				<cursus>MIC</cursus>
+			</infoCursus>
+			<infoCursus>
+				<annee>4A</annee>
+				<cursus>IR-I</cursus>
 			</infoCursus>
 		</cursuses>
 	</matiere>
@@ -24,7 +32,11 @@
 		<cursuses>
 			<infoCursus>
 				<annee>3A</annee>
-				<cursus>STPI3</cursus>
+				<cursus>IMACS</cursus>
+			</infoCursus>
+			<infoCursus>
+				<annee>4A</annee>
+				<cursus>IR-I</cursus>
 			</infoCursus>
 		</cursuses>
 	</matiere>
@@ -33,7 +45,11 @@
 		<cursuses>
 			<infoCursus>
 				<annee>2A</annee>
-				<cursus>STPI2</cursus>
+				<cursus>MIC</cursus>
+			</infoCursus>
+			<infoCursus>
+				<annee>4A</annee>
+				<cursus>IR-I</cursus>
 			</infoCursus>
 		</cursuses>
 	</matiere>
@@ -42,7 +58,11 @@
 		<cursuses>
 			<infoCursus>
 				<annee>2A</annee>
-				<cursus>STPI2</cursus>
+				<cursus>MIC</cursus>
+			</infoCursus>
+			<infoCursus>
+				<annee>4A</annee>
+				<cursus>IR-I</cursus>
 			</infoCursus>
 		</cursuses>
 	</matiere>
@@ -51,7 +71,11 @@
 		<cursuses>
 			<infoCursus>
 				<annee>1A</annee>
-				<cursus>STPI1</cursus>
+				<cursus>STPI</cursus>
+			</infoCursus>
+			<infoCursus>
+				<annee>4A</annee>
+				<cursus>IR-I</cursus>
 			</infoCursus>
 		</cursuses>
 	</matiere>
@@ -60,7 +84,7 @@
 		<cursuses>
 			<infoCursus>
 				<annee>1A</annee>
-				<cursus>STPI1</cursus>
+				<cursus>STPI</cursus>
 			</infoCursus>
 		</cursuses>
 	</matiere>
@@ -69,7 +93,7 @@
 		<cursuses>
 			<infoCursus>
 				<annee>1A</annee>
-				<cursus>STPI1</cursus>
+				<cursus>STPI</cursus>
 			</infoCursus>
 			<infoCursus>
 				<annee>2A</annee>
@@ -95,7 +119,11 @@
 		<cursuses>
 			<infoCursus>
 				<annee>1A</annee>
-				<cursus>STPI1</cursus>
+				<cursus>STPI</cursus>
+			</infoCursus>
+			<infoCursus>
+				<annee>2A</annee>
+				<cursus>IMACS</cursus>
 			</infoCursus>
 		</cursuses>
 	</matiere>
@@ -104,7 +132,7 @@
 		<cursuses>
 			<infoCursus>
 				<annee>1A</annee>
-				<cursus>STPI1</cursus>
+				<cursus>STPI</cursus>
 			</infoCursus>
 		</cursuses>
 	</matiere>
@@ -113,7 +141,7 @@
 		<cursuses>
 			<infoCursus>
 				<annee>1A</annee>
-				<cursus>STPI1</cursus>
+				<cursus>STPI</cursus>
 			</infoCursus>
 		</cursuses>
 	</matiere>

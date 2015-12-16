@@ -4,9 +4,6 @@
 <xsd:simpleType name="typeCursus">
   <xsd:restriction base="xsd:string">
     <xsd:enumeration value="STPI" />
-    <xsd:enumeration value="STPI1" />
-    <xsd:enumeration value="STPI2" />
-    <xsd:enumeration value="STPI3" />
     <xsd:enumeration value="IR" />
     <xsd:enumeration value="IR-I" />
     <xsd:enumeration value="IR-RT" />

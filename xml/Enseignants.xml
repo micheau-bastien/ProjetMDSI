@@ -29,8 +29,8 @@
             <matiere>POO</matiere>
         </matieres>
         <groupesEnseigne>
-            <groupe annee="1A" cursus="STPI1" groupe="B"/>
-            <groupe annee="1A" cursus="STPI1" groupe="A"/>
+            <groupe annee="1A" cursus="STPI" groupe="B"/>
+            <groupe annee="1A" cursus="STPI" groupe="A"/>
             <groupe annee="2A" cursus="MIC" groupe="A"/>
             <groupe annee="4A" cursus="IR-I" groupe="A"/>
         </groupesEnseigne>
@@ -99,7 +99,7 @@
             <matiere>Chimie</matiere>
         </matieres>
         <groupesEnseigne>
-            <groupe annee="1A" cursus="STPI1" groupe="B"/>
+            <groupe annee="1A" cursus="STPI" groupe="B"/>
             <groupe annee="2A" cursus="MIC" groupe="A"/>
             <groupe annee="3A" cursus="MIC" groupe="B"/>
             <groupe annee="3A" cursus="MIC" groupe="A"/>
