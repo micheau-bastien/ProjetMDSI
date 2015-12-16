@@ -3,6 +3,7 @@
 
 <xsd:simpleType name="typeCursus">
   <xsd:restriction base="xsd:string">
+    <xsd:enumeration value="STPI" />
     <xsd:enumeration value="STPI1" />
     <xsd:enumeration value="STPI2" />
     <xsd:enumeration value="STPI3" />
@@ -20,6 +21,8 @@
     <xsd:enumeration value="GBE" />
     <xsd:enumeration value="AE" />
     <xsd:enumeration value="GP" />
+    <xsd:enumeration value="SEC" />
+    <xsd:enumeration value="IL" />
   </xsd:restriction>
 </xsd:simpleType>
 
