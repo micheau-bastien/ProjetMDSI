@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+<xsd:complexType name="typeDate">
+      <xsd:attribute name="jour" type="xsd:integer" use="required" />
+      <xsd:attribute name="mois" type="typeMois" use="required" />
+      <xsd:attribute name="annee" type="xsd:integer" use="required" />
+</xsd:complexType>
+
+<xsd:simpleType name="typeMois">
+     <xsd:restriction base="xsd:string">
+          <xsd:enumeration value="jan" />
+          <xsd:enumeration value="fev" />
+          <xsd:enumeration value="mar" />
+          <xsd:enumeration value="avr" />
+          <xsd:enumeration value="mai" />
+          <xsd:enumeration value="jun" />
+          <xsd:enumeration value="jui" />
+          <xsd:enumeration value="aou" />
+          <xsd:enumeration value="sep" />
+          <xsd:enumeration value="oct" />
+          <xsd:enumeration value="nov" />
+          <xsd:enumeration value="dec" />
+     </xsd:restriction>
+</xsd:simpleType>
+
+</xsd:schema>

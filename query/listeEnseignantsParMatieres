@@ -8,7 +8,7 @@ return
         <enseignants>
         {for $enseignants in doc("../xml/Enseignants.xml")//enseignant
             where some $matEns in $enseignants/matieres/matiere/string() satisfies $matEns = $matieres/nom/string()
-            return <enseignant>{$enseignants/nom, $enseignants/prenom}</enseignant>}
+            return <enseignant>{$enseignants/nom} - {$enseignants/prenom}</enseignant>}
         </enseignants>
     </matiereEnseignee>}
 </matieres>

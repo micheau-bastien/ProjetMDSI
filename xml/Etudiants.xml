@@ -133,6 +133,19 @@
 					</notes>
 				</etudiant>
 				<etudiant>
+					<nom>UneDette</nom>
+					<prenom>SansRattrapage</prenom>
+					<dateNaissance jour="18" mois="avr" annee="1999" />
+					<notes>
+						<annee annee="2015">
+							<note matiere="Expression" note="12" />
+						</annee>
+						<annee annee="2014">
+							<note matiere="Finance" note="1" />
+						</annee>
+					</notes>
+				</etudiant>
+				<etudiant>
 					<nom>TUTU</nom>
 					<prenom>Il</prenom>
 					<dateNaissance jour="15" mois="mar" annee="1994" />

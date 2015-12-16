@@ -7,7 +7,7 @@ xquery version "3.0";
         <cursus>
             <nom>{$cursus}</nom>
             <matiere>{for $matieresCursus in doc("../xml/Matieres.xml")//matiere
-            where some $matCurs in $matieresCursus/cursusApp/cursus/string() satisfies $matCurs = $cursus
+            where some $matCurs in $matieresCursus/cursuses/infoCursus/cursus/string() satisfies $matCurs = $cursus
             return $matieresCursus/nom}</matiere>
         </cursus>}
 </cursuses>
