@@ -1,23 +1,15 @@
 <?xml version="1.0"?>
 
-<xsl:stylesheet version="1.0"
-xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
   <xsl:template match="/etudiants">
     <html>
-<<<<<<< HEAD
+
     	<h1>Tableau des étudiants par cursus</h1>
     	<table class="table table-hover table-bordered">
     		<xsl:apply-templates select="//cursus"/>
     	</table>
-=======
-    	<h1>Etudiants par Cursus</h1>
-      <div style="overflow: auto;">
-      	<table class="table table-hover table-bordered">
-      		<xsl:apply-templates select="//cursus"/>
-      	</table>
-      </div>
->>>>>>> origin/master
+
     </html>
   </xsl:template>
 
