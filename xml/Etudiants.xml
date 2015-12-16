@@ -3,87 +3,107 @@
 		<cursus value="MIC">
 			<groupe value="A">
 				<etudiant>
-					<nom>DOUBLEDETTE</nom>
-					<prenom>Pasrattrapage</prenom>
+					<nom>DUPONT</nom>
+					<prenom>Joan</prenom>
 					<dateNaissance jour="15" mois="mar" annee="1994" />
 					<notes>
-						<annee annee="2015">
+						<annee annee="2015/2016">
 							<note matiere="Expression" note="12" />
 						</annee>
-						<annee annee="2014">
+						<annee annee="2014/2015">
 							<note matiere="Maths" note="9" />
 							<note matiere="Ondes" note="3" />
 						</annee>
 					</notes>
 				</etudiant>
 				<etudiant>
-					<nom>TRIPLEDETTE</nom>
+					<nom>MAROT</nom>
 					<prenom>Laure</prenom>
-					<dateNaissance jour="15" mois="mar" annee="1994" />
+					<dateNaissance jour="23" mois="mar" annee="1994" />
 					<notes>
-						<annee annee="2015">
-							<note matiere="Expression" note="12" />
-						</annee>
-						<annee annee="2014">
-							<note matiere="Maths" note="9" />
-							<note matiere="Ondes" note="3" />
-							<note matiere="Thermo" note="6" />
-						</annee>
-					</notes>
-				</etudiant>
-				<etudiant>
-					<nom>RATTRAPAGE</nom>
-					<prenom>Sansdette</prenom>
-					<dateNaissance jour="15" mois="mar" annee="1994" />
-					<notes>
-						<annee annee="2015">
-							<note matiere="Expression" note="1" />
-						</annee>
-						<annee annee="2015">
+						<annee annee="2015/2016">
 							<note matiere="Expression" note="13" />
-							<note matiere="Expression" note="14" />
-							<note matiere="Expression" note="15" />
+							<note matiere="Maths" note="12" />
+						</annee>
+						<annee annee="2014/2015">
+							<note matiere="Maths" note="6,5" />
+							<note matiere="Ondes" note="8" />
+							<note matiere="Thermo" note="7" />
 						</annee>
 					</notes>
 				</etudiant>
 				<etudiant>
-					<nom>RERE</nom>
-					<prenom>QDen</prenom>
-					<dateNaissance jour="15" mois="mar" annee="1994" />
+					<nom>GELLI</nom>
+					<prenom>Margot</prenom>
+					<dateNaissance jour="12" mois="feb" annee="1993" />
 					<notes>
-						<annee annee="2015">
+						<annee annee="2015/2016">
+							<note matiere="Expression" note="14" />
+						</annee>
+						<annee annee="2015/2016">
+							<note matiere="Maths" note="13" />
+							<note matiere="Thermo" note="14" />
+							<note matiere="Anglais" note="15" />
+						</annee>
+					</notes>
+				</etudiant>
+				<etudiant>
+					<nom>RABIOT</nom>
+					<prenom>Daniel</prenom>
+					<dateNaissance jour="24" mois="avr" annee="1993" />
+					<notes>
+						<annee annee="2015/2016">
 							<note matiere="Expression" note="12" />
+							<note matiere="Anglais" note="15" />
+							<note matiere="Info Mat" note="11" />
+						</annee>
+						<annee annee="2014/2015">
+							<note matiere="Periph" note="12" />
+							<note matiere="COOPOO" note="17" />
+							<note matiere="Info Mat" note="8" />
 						</annee>
 					</notes>
 				</etudiant>
 			</groupe>
 			<groupe value="B">
 				<etudiant>
-					<nom>ZAZA</nom>
+					<nom>ZAZAI</nom>
 					<prenom>Henri</prenom>
 					<dateNaissance jour="15" mois="mar" annee="1994" />
 					<notes>
-						<annee annee="2015">
-						<note matiere="Expression" note="12" />
+						<annee annee="2015/2016">
+							<note matiere="MDSI" note="12" />
+						</annee>
+						<annee annee="2014/2015">
+							<note matiere="Expression" note="12" />
+							<note matiere="COOPOO" note="15" />
+							<note matiere="Info Mat" note="11" />
 						</annee>
 					</notes>
 				</etudiant>
 				<etudiant>
-					<nom>ZEZE</nom>
+					<nom>GRATTER</nom>
 					<prenom>Pierre</prenom>
-					<dateNaissance jour="15" mois="mar" annee="1994" />
+					<dateNaissance jour="8" mois="jun" annee="1994" />
 					<notes>
-						<annee annee="2015">
-						<note matiere="Expression" note="12" />
+						<annee annee="2015/2016">
+							<note matiere="MDSI" note="12" />
+							<note matiere="COOPOO" note="8" />
+							<note matiere="Maths" note="10" />
+						</annee>
+						<annee annee="2014/2015">
+							<note matiere="Expression" note="14" />
+							<note matiere="Maths" note="13" />
+							<note matiere="Algo" note="16" />
 						</annee>
 					</notes>
 				</etudiant>
 				<etudiant>
-					<nom>ZOZO</nom>
-					<prenom>Music</prenom>
+					<nom>DELLAU</nom>
+					<prenom>Paul</prenom>
 					<dateNaissance jour="15" mois="mar" annee="1994" />
 					<notes>
-						<annee annee="2015">
+						<annee annee="2015/2016">
 						<note matiere="Expression" note="12" />
 						</annee>
 					</notes>
@@ -93,7 +113,7 @@
 					<prenom>Paolo</prenom>
 					<dateNaissance jour="15" mois="mar" annee="1994" />
 					<notes>
-						<annee annee="2015">
+						<annee annee="2015/2016">
 						<note matiere="Expression" note="12" />
 						</annee>
 					</notes>
@@ -107,7 +127,7 @@
 					<prenom>Petit</prenom>
 					<dateNaissance jour="15" mois="mar" annee="1994" />
 					<notes>
-						<annee annee="2015">
+						<annee annee="2015/2016">
 						<note matiere="Expression" note="12" />
 						</annee>
 					</notes>
@@ -117,7 +137,7 @@
 					<prenom>Danse</prenom>
 					<dateNaissance jour="15" mois="mar" annee="1994" />
 					<notes>
-						<annee annee="2015">
+						<annee annee="2015/2016">
 						<note matiere="Expression" note="12" />
 						</annee>
 					</notes>
@@ -127,7 +147,7 @@
 					<prenom>son</prenom>
 					<dateNaissance jour="15" mois="mar" annee="1994" />
 					<notes>
-						<annee annee="2015">
+						<annee annee="2015/2016">
 						<note matiere="Expression" note="12" />
 						</annee>
 					</notes>
@@ -137,11 +157,16 @@
 					<prenom>SansRattrapage</prenom>
 					<dateNaissance jour="18" mois="avr" annee="1999" />
 					<notes>
-						<annee annee="2015">
+						<annee annee="2015/2016">
 							<note matiere="Expression" note="12" />
 						</annee>
+<<<<<<< HEAD
+						<annee annee="2015/2016">
+							<note matiere="Expression" note="12" />
+=======
 						<annee annee="2014">
 							<note matiere="Finance" note="1" />
+>>>>>>> origin/master
 						</annee>
 					</notes>
 				</etudiant>
@@ -150,7 +175,7 @@
 					<prenom>Il</prenom>
 					<dateNaissance jour="15" mois="mar" annee="1994" />
 					<notes>
-						<annee annee="2015">
+						<annee annee="2015/2016">
 						<note matiere="Expression" note="12" />
 						</annee>
 					</notes>
@@ -162,7 +187,7 @@
 					<prenom>Yui</prenom>
 					<dateNaissance jour="15" mois="mar" annee="1994" />
 					<notes>
-						<annee annee="2015">
+						<annee annee="2015/2016">
 						<note matiere="Expression" note="12" />
 						</annee>
 					</notes>
@@ -172,7 +197,7 @@
 					<prenom>Ooiu</prenom>
 					<dateNaissance jour="15" mois="mar" annee="1994" />
 					<notes>
-						<annee annee="2015">
+						<annee annee="2015/2016">
 						<note matiere="Expression" note="12" />
 						</annee>
 					</notes>
@@ -182,7 +207,7 @@
 					<prenom>Hju</prenom>
 					<dateNaissance jour="15" mois="mar" annee="1994" />
 					<notes>
-						<annee annee="2015">
+						<annee annee="2015/2016">
 						<note matiere="Expression" note="12" />
 						</annee>
 					</notes>
@@ -192,7 +217,7 @@
 					<prenom>Fvg</prenom>
 					<dateNaissance jour="15" mois="mar" annee="1994" />
 					<notes>
-						<annee annee="2015">
+						<annee annee="2015/2016">
 						<note matiere="Expression" note="12" />
 						</annee>
 					</notes>
@@ -208,7 +233,7 @@
 					<prenom>Bastien</prenom>
 					<dateNaissance jour="15" mois="mar" annee="1994" />
 					<notes>
-						<annee annee="2015">
+						<annee annee="2015/2016">
 						<note matiere="Expression" note="12" />
 						</annee>
 					</notes>
@@ -218,7 +243,7 @@
 					<prenom>Laure</prenom>
 					<dateNaissance jour="15" mois="mar" annee="1994" />
 					<notes>
-						<annee annee="2015">
+						<annee annee="2015/2016">
 						<note matiere="Expression" note="12" />
 						</annee>
 					</notes>
@@ -228,7 +253,7 @@
 					<prenom>Bafeen</prenom>
 					<dateNaissance jour="15" mois="mar" annee="1994" />
 					<notes>
-						<annee annee="2015">
+						<annee annee="2015/2016">
 						<note matiere="Expression" note="12" />
 						</annee>
 					</notes>
@@ -238,7 +263,7 @@
 					<prenom>QDen</prenom>
 					<dateNaissance jour="15" mois="mar" annee="1994" />
 					<notes>
-						<annee annee="2015">
+						<annee annee="2015/2016">
 						<note matiere="Expression" note="12" />
 						</annee>
 					</notes>
@@ -250,7 +275,7 @@
 					<prenom>Henri</prenom>
 					<dateNaissance jour="15" mois="mar" annee="1994" />
 					<notes>
-						<annee annee="2015">
+						<annee annee="2015/2016">
 						<note matiere="Expression" note="12" />
 						</annee>
 					</notes>
@@ -260,7 +285,7 @@
 					<prenom>Pierre</prenom>
 					<dateNaissance jour="15" mois="mar" annee="1994" />
 					<notes>
-						<annee annee="2015">
+						<annee annee="2015/2016">
 						<note matiere="Expression" note="12" />
 						</annee>
 					</notes>
@@ -270,7 +295,7 @@
 					<prenom>Music</prenom>
 					<dateNaissance jour="15" mois="mar" annee="1994" />
 					<notes>
-						<annee annee="2015">
+						<annee annee="2015/2016">
 						<note matiere="Expression" note="12" />
 						</annee>
 					</notes>
@@ -280,7 +305,7 @@
 					<prenom>Paolo</prenom>
 					<dateNaissance jour="15" mois="mar" annee="1994" />
 					<notes>
-						<annee annee="2015">
+						<annee annee="2015/2016">
 						<note matiere="Expression" note="12" />
 						</annee>
 					</notes>
@@ -294,7 +319,7 @@
 					<prenom>Petit</prenom>
 					<dateNaissance jour="15" mois="mar" annee="1994" />
 					<notes>
-						<annee annee="2015">
+						<annee annee="2015/2016">
 						<note matiere="Expression" note="12" />
 						</annee>
 					</notes>
@@ -304,7 +329,7 @@
 					<prenom>Danse</prenom>
 					<dateNaissance jour="15" mois="mar" annee="1994" />
 					<notes>
-						<annee annee="2015">
+						<annee annee="2015/2016">
 						<note matiere="Expression" note="12" />
 						</annee>
 					</notes>
@@ -314,7 +339,7 @@
 					<prenom>son</prenom>
 					<dateNaissance jour="15" mois="mar" annee="1994" />
 					<notes>
-						<annee annee="2015">
+						<annee annee="2015/2016">
 						<note matiere="Expression" note="12" />
 						</annee>
 					</notes>
@@ -324,7 +349,7 @@
 					<prenom>Il</prenom>
 					<dateNaissance jour="15" mois="mar" annee="1994" />
 					<notes>
-						<annee annee="2015">
+						<annee annee="2015/2016">
 						<note matiere="Expression" note="12" />
 						</annee>
 					</notes>
@@ -336,10 +361,10 @@
 					<prenom>Yui</prenom>
 					<dateNaissance jour="15" mois="mar" annee="1994" />
 					<notes>
-						<annee annee="2015">
+						<annee annee="2015/2016">
 							<note matiere="Expression" note="12" />
 						</annee>
-						<annee annee="2014">
+						<annee annee="2014/2015">
 							<note matiere="Compta" note="2" />
 							<note matiere="Maths" note="4" />
 						</annee>
@@ -350,10 +375,10 @@
 					<prenom>Ooiu</prenom>
 					<dateNaissance jour="15" mois="mar" annee="1994" />
 					<notes>
-						<annee annee="2015">
+						<annee annee="2015/2016">
 							<note matiere="Expression" note="18" />
 						</annee>
-						<annee annee="2014">
+						<annee annee="2014/2015">
 							<note matiere="Compta" note="2" />
 							<note matiere="Maths" note="4" />
 						</annee>
@@ -364,10 +389,10 @@
 					<prenom>Hju</prenom>
 					<dateNaissance jour="15" mois="mar" annee="1994" />
 					<notes>
-						<annee annee="2015">
+						<annee annee="2015/2016">
 							<note matiere="Expression" note="8" />
 						</annee>
-						<annee annee="2014">
+						<annee annee="2014/2015">
 							<note matiere="Compta" note="2" />
 							<note matiere="Maths" note="4" />
 						</annee>
@@ -378,10 +403,10 @@
 					<prenom>Fvg</prenom>
 					<dateNaissance jour="15" mois="mar" annee="1994" />
 					<notes>
-						<annee annee="2015">
+						<annee annee="2015/2016">
 							<note matiere="Expression" note="12" />
 						</annee>
-						<annee annee="2014">
+						<annee annee="2014/2015">
 							<note matiere="Compta" note="2" />
 							<note matiere="Maths" note="4" />
 						</annee>
