@@ -160,13 +160,8 @@
 						<annee annee="2015/2016">
 							<note matiere="Expression" note="12" />
 						</annee>
-<<<<<<< HEAD
 						<annee annee="2015/2016">
 							<note matiere="Expression" note="12" />
-=======
-						<annee annee="2014">
-							<note matiere="Finance" note="1" />
->>>>>>> origin/master
 						</annee>
 					</notes>
 				</etudiant>
