@@ -1,5 +1,7 @@
 // MADE BY Laure BRICARD & Bastien MICHEAU
 
+/!\ !!!!!! Depuis la présentation nous avons ajouté le fait que la requete xquery n'est lancée QUE lorsque l'on lance la page ! De cette façon nous évitons d'avoir à recharger toutes les query du SDBG à chaque chargement de la page, amenant à des gains de performance. !!!!!! /!\
+
 Configuration minimale : Server PHP, xqilla, xsltproc, xmllint sur le serveur.
 
 Le projet doit être hebergé sur un simple server php ayant xqilla, xsltproc, xmllint installé. De cette façon chaque acces au site rafraichira les requestes et les affichages.
