@@ -1,0 +1,80 @@
+<etudiants><etudiant>
+					<nom>DEHAL</nom>
+					<prenom>George</prenom>
+					<dateNaissance jour="15" mois="mar" annee="1994"/>
+					<notes>
+						<annee annee="2015">
+							<note matiere="Expression" note="12"/>
+						</annee>
+						<annee annee="2014">
+							<note matiere="Maths" note="9"/>
+							<note matiere="Ondes" note="3"/>
+						</annee>
+					</notes>
+				</etudiant><etudiant>
+					<nom>DUPONT</nom>
+					<prenom>Joan</prenom>
+					<dateNaissance jour="15" mois="mar" annee="1994"/>
+					<notes>
+						<annee annee="2015">
+							<note matiere="Expression" note="12"/>
+						</annee>
+						<annee annee="2014">
+							<note matiere="Maths" note="9"/>
+							<note matiere="Ondes" note="3"/>
+						</annee>
+					</notes>
+				</etudiant><etudiant>
+					<nom>PROUST</nom>
+					<prenom>Marcel</prenom>
+					<dateNaissance jour="15" mois="mar" annee="1994"/>
+					<notes>
+						<annee annee="2015">
+							<note matiere="Expression" note="12"/>
+						</annee>
+						<annee annee="2014">
+							<note matiere="Maths" note="9"/>
+							<note matiere="Base de Donnees" note="3"/>
+						</annee>
+					</notes>
+				</etudiant><etudiant>
+					<nom>MOLIENNE</nom>
+					<prenom>Lucas</prenom>
+					<dateNaissance jour="15" mois="mar" annee="1994"/>
+					<notes>
+						<annee annee="2015">
+							<note matiere="Expression" note="12"/>
+						</annee>
+						<annee annee="2014">
+							<note matiere="Finance" note="2"/>
+							<note matiere="Maths" note="4"/>
+						</annee>
+					</notes>
+				</etudiant><etudiant>
+					<nom>CHUVAUT</nom>
+					<prenom>Laurianne</prenom>
+					<dateNaissance jour="15" mois="mar" annee="1994"/>
+					<notes>
+						<annee annee="2015">
+							<note matiere="Expression" note="12"/>
+							<note matiere="Informatique Materielle" note="12"/>
+						</annee>
+						<annee annee="2014">
+							<note matiere="Gestion" note="2"/>
+							<note matiere="Maths" note="4"/>
+						</annee>
+					</notes>
+				</etudiant><etudiant>
+					<nom>BULOT</nom>
+					<prenom>Fabienne</prenom>
+					<dateNaissance jour="15" mois="mar" annee="1994"/>
+					<notes>
+						<annee annee="2015">
+							<note matiere="Expression" note="12"/>
+						</annee>
+						<annee annee="2014">
+							<note matiere="Gestion" note="2"/>
+							<note matiere="Maths" note="4"/>
+						</annee>
+					</notes>
+				</etudiant></etudiants>
