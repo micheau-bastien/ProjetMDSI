@@ -25,7 +25,5 @@ function compile {
     xsltproc -output  html/$1.html xsl/$1.xsl xml/$1.xml
      ;;
   esac
-  xqilla query/$1 -o xml/$1.xml;
-  xsltproc -output  html/$1.html xsl/$1.xsl xml/$1.xml;
 }
 compile $1;

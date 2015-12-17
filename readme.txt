@@ -1,6 +1,7 @@
 // MADE BY Laure BRICARD & Bastien MICHEAU
 
 /!\ !!!!!! Depuis la présentation nous avons ajouté le fait que la requete xquery n'est lancée QUE lorsque l'on lance la page ! De cette façon nous évitons d'avoir à recharger toutes les query du SDBG à chaque chargement de la page, amenant à des gains de performance. !!!!!! /!\
+les requêtes sont lancées une par une au chargement de la page souhaitée seulement. Le script tel qu'il a été modifié prend en argument le nom de la requête à exécuter et n'exécute que celle ci. Il faut donc passer un argument au script à l'exécution.
 
 Configuration minimale : Server PHP, xqilla, xsltproc, xmllint sur le serveur.
 
