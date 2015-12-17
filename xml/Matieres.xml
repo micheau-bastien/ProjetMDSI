@@ -5,31 +5,9 @@
 		<nom>MDSI</nom>
 		<cursuses>
 			<infoCursus>
-				<annee>1A</annee>
-				<cursus>STPI</cursus>
-			</infoCursus>
-			<infoCursus>
-				<annee>4A</annee>
-				<cursus>IR-I</cursus>
-			</infoCursus>
-		</cursuses>
-	</matiere>
-	<matiere  code="EXP8SDE">
-		<nom>Expression</nom>
-		<cursuses>
-			<infoCursus>
-				<annee>2A</annee>
+				<annee>3A</annee>
 				<cursus>MIC</cursus>
 			</infoCursus>
-			<infoCursus>
-				<annee>4A</annee>
-				<cursus>IR-I</cursus>
-			</infoCursus>
-		</cursuses>
-	</matiere>
-	<matiere  code="ANG8SDE">
-		<nom>Anglais</nom>
-		<cursuses>
 			<infoCursus>
 				<annee>3A</annee>
 				<cursus>IMACS</cursus>
@@ -38,18 +16,95 @@
 				<annee>4A</annee>
 				<cursus>IR-I</cursus>
 			</infoCursus>
+			<infoCursus>
+				<annee>4A</annee>
+				<cursus>IR-RT</cursus>
+			</infoCursus>
+			<infoCursus>
+				<annee>5A</annee>
+				<cursus>SEC</cursus>
+			</infoCursus>
 		</cursuses>
 	</matiere>
-	<matiere  code="POO8SDE">
-		<nom>POO</nom>
+	<matiere  code="EXP8SDE">
+		<nom>Expression</nom>
 		<cursuses>
+			<infoCursus>
+				<annee>1A</annee>
+				<cursus>STPI</cursus>
+			</infoCursus>
 			<infoCursus>
 				<annee>2A</annee>
 				<cursus>MIC</cursus>
 			</infoCursus>
 			<infoCursus>
+				<annee>2A</annee>
+				<cursus>IMACS</cursus>
+			</infoCursus>
+			<infoCursus>
+				<annee>3A</annee>
+				<cursus>MIC</cursus>
+			</infoCursus>
+			<infoCursus>
+				<annee>3A</annee>
+				<cursus>IMACS</cursus>
+			</infoCursus>
+			<infoCursus>
 				<annee>4A</annee>
 				<cursus>IR-I</cursus>
+			</infoCursus>
+			<infoCursus>
+				<annee>4A</annee>
+				<cursus>IR-RT</cursus>
+			</infoCursus>
+			<infoCursus>
+				<annee>5A</annee>
+				<cursus>SEC</cursus>
+			</infoCursus>
+			<infoCursus>
+				<annee>5A</annee>
+				<cursus>IL</cursus>
+			</infoCursus>
+		</cursuses>
+	</matiere>
+	<matiere  code="ANG8SDE">
+		<nom>Anglais</nom>
+		<cursuses>
+			<infoCursus>
+				<annee>1A</annee>
+				<cursus>STPI</cursus>
+			</infoCursus>
+			<infoCursus>
+				<annee>2A</annee>
+				<cursus>MIC</cursus>
+			</infoCursus>
+			<infoCursus>
+				<annee>2A</annee>
+				<cursus>IMACS</cursus>
+			</infoCursus>
+			<infoCursus>
+				<annee>3A</annee>
+				<cursus>MIC</cursus>
+			</infoCursus>
+			<infoCursus>
+				<annee>3A</annee>
+				<cursus>IMACS</cursus>
+			</infoCursus>
+			<infoCursus>
+				<annee>4A</annee>
+				<cursus>IR-I</cursus>
+			</infoCursus>
+			<infoCursus>
+				<annee>4A</annee>
+				<cursus>IR-RT</cursus>
+			</infoCursus>
+			<infoCursus>
+				<annee>5A</annee>
+				<cursus>SEC</cursus>
+			</infoCursus>
+			<infoCursus>
+				<annee>5A</annee>
+				<cursus>IL</cursus>
 			</infoCursus>
 		</cursuses>
 	</matiere>
@@ -57,12 +112,40 @@
 		<nom>Petanque</nom>
 		<cursuses>
 			<infoCursus>
+				<annee>1A</annee>
+				<cursus>STPI</cursus>
+			</infoCursus>
+			<infoCursus>
 				<annee>2A</annee>
 				<cursus>MIC</cursus>
 			</infoCursus>
 			<infoCursus>
+				<annee>2A</annee>
+				<cursus>IMACS</cursus>
+			</infoCursus>
+			<infoCursus>
+				<annee>3A</annee>
+				<cursus>MIC</cursus>
+			</infoCursus>
+			<infoCursus>
+				<annee>3A</annee>
+				<cursus>IMACS</cursus>
+			</infoCursus>
+			<infoCursus>
 				<annee>4A</annee>
 				<cursus>IR-I</cursus>
+			</infoCursus>
+			<infoCursus>
+				<annee>4A</annee>
+				<cursus>IR-RT</cursus>
+			</infoCursus>
+			<infoCursus>
+				<annee>5A</annee>
+				<cursus>SEC</cursus>
+			</infoCursus>
+			<infoCursus>
+				<annee>5A</annee>
+				<cursus>IL</cursus>
 			</infoCursus>
 		</cursuses>
 	</matiere>
@@ -70,8 +153,16 @@
 		<nom>Informatique Materielle</nom>
 		<cursuses>
 			<infoCursus>
-				<annee>1A</annee>
-				<cursus>STPI</cursus>
+				<annee>3A</annee>
+				<cursus>MIC</cursus>
+			</infoCursus>
+			<infoCursus>
+				<annee>4A</annee>
+				<cursus>IR-RT</cursus>
+			</infoCursus>
+			<infoCursus>
+				<annee>3A</annee>
+				<cursus>IMACS</cursus>
 			</infoCursus>
 			<infoCursus>
 				<annee>4A</annee>
@@ -83,8 +174,28 @@
 		<nom>COOPOO</nom>
 		<cursuses>
 			<infoCursus>
-				<annee>1A</annee>
-				<cursus>STPI</cursus>
+				<annee>3A</annee>
+				<cursus>MIC</cursus>
+			</infoCursus>
+			<infoCursus>
+				<annee>4A</annee>
+				<cursus>IR-RT</cursus>
+			</infoCursus>
+			<infoCursus>
+				<annee>3A</annee>
+				<cursus>IMACS</cursus>
+			</infoCursus>
+			<infoCursus>
+				<annee>4A</annee>
+				<cursus>IR-I</cursus>
+			</infoCursus>
+			<infoCursus>
+				<annee>5A</annee>
+				<cursus>SEC</cursus>
+			</infoCursus>
+			<infoCursus>
+				<annee>5A</annee>
+				<cursus>IL</cursus>
 			</infoCursus>
 		</cursuses>
 	</matiere>
@@ -103,6 +214,30 @@
 				<annee>2A</annee>
 				<cursus>IMACS</cursus>
 			</infoCursus>
+			<infoCursus>
+				<annee>3A</annee>
+				<cursus>MIC</cursus>
+			</infoCursus>
+			<infoCursus>
+				<annee>3A</annee>
+				<cursus>IMACS</cursus>
+			</infoCursus>
+			<infoCursus>
+				<annee>4A</annee>
+				<cursus>IR-I</cursus>
+			</infoCursus>
+			<infoCursus>
+				<annee>4A</annee>
+				<cursus>IR-RT</cursus>
+			</infoCursus>
+			<infoCursus>
+				<annee>5A</annee>
+				<cursus>SEC</cursus>
+			</infoCursus>
+			<infoCursus>
+				<annee>5A</annee>
+				<cursus>IL</cursus>
+			</infoCursus>
 		</cursuses>
 	</matiere>
 	<matiere  code="BDD8SDE">
@@ -111,6 +246,18 @@
 			<infoCursus>
 				<annee>2A</annee>
 				<cursus>MIC</cursus>
+			</infoCursus>
+			<infoCursus>
+				<annee>2A</annee>
+				<cursus>IMACS</cursus>
+			</infoCursus>
+			<infoCursus>
+				<annee>3A</annee>
+				<cursus>MIC</cursus>
+			</infoCursus>
+			<infoCursus>
+				<annee>3A</annee>
+				<cursus>IMACS</cursus>
 			</infoCursus>
 		</cursuses>
 	</matiere>
@@ -123,7 +270,35 @@
 			</infoCursus>
 			<infoCursus>
 				<annee>2A</annee>
+				<cursus>MIC</cursus>
+			</infoCursus>
+			<infoCursus>
+				<annee>2A</annee>
 				<cursus>IMACS</cursus>
+			</infoCursus>
+			<infoCursus>
+				<annee>3A</annee>
+				<cursus>MIC</cursus>
+			</infoCursus>
+			<infoCursus>
+				<annee>3A</annee>
+				<cursus>IMACS</cursus>
+			</infoCursus>
+			<infoCursus>
+				<annee>4A</annee>
+				<cursus>IR-I</cursus>
+			</infoCursus>
+			<infoCursus>
+				<annee>4A</annee>
+				<cursus>IR-RT</cursus>
+			</infoCursus>
+			<infoCursus>
+				<annee>5A</annee>
+				<cursus>SEC</cursus>
+			</infoCursus>
+			<infoCursus>
+				<annee>5A</annee>
+				<cursus>IL</cursus>
 			</infoCursus>
 		</cursuses>
 	</matiere>
@@ -134,6 +309,22 @@
 				<annee>1A</annee>
 				<cursus>STPI</cursus>
 			</infoCursus>
+			<infoCursus>
+				<annee>2A</annee>
+				<cursus>MIC</cursus>
+			</infoCursus>
+			<infoCursus>
+				<annee>2A</annee>
+				<cursus>IMACS</cursus>
+			</infoCursus>
+			<infoCursus>
+				<annee>3A</annee>
+				<cursus>MIC</cursus>
+			</infoCursus>
+			<infoCursus>
+				<annee>3A</annee>
+				<cursus>IMACS</cursus>
+			</infoCursus>
 		</cursuses>
 	</matiere>
 	<matiere  code="CHI8SDE">
@@ -142,6 +333,81 @@
 			<infoCursus>
 				<annee>1A</annee>
 				<cursus>STPI</cursus>
+			</infoCursus>
+			<infoCursus>
+				<annee>2A</annee>
+				<cursus>MIC</cursus>
+			</infoCursus>
+			<infoCursus>
+				<annee>2A</annee>
+				<cursus>IMACS</cursus>
+			</infoCursus>
+			<infoCursus>
+				<annee>3A</annee>
+				<cursus>MIC</cursus>
+			</infoCursus>
+			<infoCursus>
+				<annee>3A</annee>
+				<cursus>IMACS</cursus>
+			</infoCursus>
+		</cursuses>
+	</matiere>
+	<matiere  code="FIN8SDE">
+		<nom>Finance</nom>
+		<cursuses>
+			<infoCursus>
+				<annee>4A</annee>
+				<cursus>IR-I</cursus>
+			</infoCursus>
+			<infoCursus>
+				<annee>4A</annee>
+				<cursus>IR-RT</cursus>
+			</infoCursus>
+			<infoCursus>
+				<annee>5A</annee>
+				<cursus>SEC</cursus>
+			</infoCursus>
+			<infoCursus>
+				<annee>5A</annee>
+				<cursus>IL</cursus>
+			</infoCursus>
+		</cursuses>
+	</matiere>
+	<matiere  code="GES8SDE">
+		<nom>Gestion</nom>
+		<cursuses>
+			<infoCursus>
+				<annee>5A</annee>
+				<cursus>SEC</cursus>
+			</infoCursus>
+			<infoCursus>
+				<annee>5A</annee>
+				<cursus>IL</cursus>
+			</infoCursus>
+		</cursuses>
+	</matiere>
+	<matiere  code="OND8SDE">
+		<nom>Ondes</nom>
+		<cursuses>
+			<infoCursus>
+				<annee>1A</annee>
+				<cursus>STPI</cursus>
+			</infoCursus>
+			<infoCursus>
+				<annee>2A</annee>
+				<cursus>MIC</cursus>
+			</infoCursus>
+			<infoCursus>
+				<annee>2A</annee>
+				<cursus>IMACS</cursus>
+			</infoCursus>
+			<infoCursus>
+				<annee>3A</annee>
+				<cursus>MIC</cursus>
+			</infoCursus>
+			<infoCursus>
+				<annee>3A</annee>
+				<cursus>IMACS</cursus>
 			</infoCursus>
 		</cursuses>
 	</matiere>

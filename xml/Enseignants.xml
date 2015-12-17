@@ -26,7 +26,7 @@
             <matiere>Gestion</matiere>
             <matiere>Anglais</matiere>
             <matiere>Petanque</matiere>
-            <matiere>POO</matiere>
+            <matiere>COOPOO</matiere>
         </matieres>
         <groupesEnseigne>
             <groupe annee="1A" cursus="STPI" groupe="B"/>
@@ -44,7 +44,7 @@
             <matiere>Expression</matiere>
             <matiere>Informatique Materielle</matiere>
             <matiere>Anglais</matiere>
-            <matiere>POO</matiere>
+            <matiere>COOPOO</matiere>
         </matieres>
         <groupesEnseigne>
             <groupe annee="2A" cursus="MIC" groupe="B"/>

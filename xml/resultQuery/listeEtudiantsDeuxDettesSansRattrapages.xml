@@ -46,7 +46,7 @@
 							<note matiere="Expression" note="12"/>
 						</annee>
 						<annee annee="2014">
-							<note matiere="Compta" note="2"/>
+							<note matiere="Finance" note="2"/>
 							<note matiere="Maths" note="4"/>
 						</annee>
 					</notes>
@@ -57,22 +57,10 @@
 					<notes>
 						<annee annee="2015">
 							<note matiere="Expression" note="12"/>
+							<note matiere="Informatique Materielle" note="12"/>
 						</annee>
 						<annee annee="2014">
-							<note matiere="Compta" note="2"/>
-							<note matiere="Maths" note="4"/>
-						</annee>
-					</notes>
-				</etudiant><etudiant>
-					<nom>MOLIENNE</nom>
-					<prenom>Lucas</prenom>
-					<dateNaissance jour="15" mois="mar" annee="1994"/>
-					<notes>
-						<annee annee="2015">
-							<note matiere="Expression" note="12"/>
-						</annee>
-						<annee annee="2014">
-							<note matiere="Compta" note="2"/>
+							<note matiere="Gestion" note="2"/>
 							<note matiere="Maths" note="4"/>
 						</annee>
 					</notes>
@@ -85,7 +73,7 @@
 							<note matiere="Expression" note="12"/>
 						</annee>
 						<annee annee="2014">
-							<note matiere="Compta" note="2"/>
+							<note matiere="Gestion" note="2"/>
 							<note matiere="Maths" note="4"/>
 						</annee>
 					</notes>
